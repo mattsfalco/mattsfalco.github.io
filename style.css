@@ -1,6 +1,9 @@
-.nav{
+nav {
 	display: block;
 }
-.div{
+div {
 	background-color: #ffffff;
+}
+#header{
+	background-color: #bbc3c1;
 }
