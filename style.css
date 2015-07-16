@@ -1,9 +1,19 @@
 nav {
 	display: block;
 }
+header {
+	display: block;
+	background-color: #ffffff;
+	font-family: 'Open Sans', serif;
+  	font-size: 18px;
+  	text-shadow: 4px 4px 4px #aaa;
+}
 div {
 	background-color: #ffffff;
 }
 #header{
 	background-color: #bbc3c1;
+	font-family: 'Open Sans', serif;
+  	font-size: 18px;
+  	text-shadow: 4px 4px 4px #aaa;
 }
