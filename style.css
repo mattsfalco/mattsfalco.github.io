@@ -54,6 +54,8 @@ header ul li a{
 }
 .fb-post{
 	position:relative;
+	width: 400px;
+	float: right;
 }
 
 #logo{
