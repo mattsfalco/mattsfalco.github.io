@@ -1,30 +1,40 @@
 a {
- 	color: #1fad82;
+ 	color: black;
     text-decoration: none;
 }
 a:hover {
 	color: white;
 }
 body {
-    margin: 0;
+	display: block;
+    margin: 0px;
     width: 100%;
     font-family: 'Open Sans', sans-serif;
+    background-image:url('background.png');
+    background-repeat:no-repeat;
+
 }
 nav {
 	display: block;
 }
 header {
 	display: block;
-	background-color: black;
+	background-color: transparent;
 	font-family: 'Open Sans', serif;
   	font-size: 18px;
   	font-weight: bold;
+  	width: 100%;
+  	margin-top: 10px;
+  	margin-right: auto;
+  	margin-left: auto;
+  	position: fixed;
 }
 div {
 	background-color: black;
 }
 object {
 	display: block;
+	width: 100%;
 }
 ul{
 	list-style-type: none;
@@ -36,12 +46,13 @@ header ul li {
 	float: left;
 }
 header ul li a{
-	width: 100px;
+	width: 100%;
+	float: right;
+	padding-left: 30px;
 }
-#header{
-	background-color: black;
-	font-family: 'Open Sans', serif;
-  	font-size: 18px;
-  	overflow: hidden;
 
+#logo{
+	width: 50px;
+	height: 50px;
+	float: left;
 }
