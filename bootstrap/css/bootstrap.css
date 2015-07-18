@@ -6803,6 +6803,8 @@ button.close {
 /*# User Added CSS */
 
 #twitter{
-  width: 300px;
+  width: 100%;
   padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
