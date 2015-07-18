@@ -6799,3 +6799,10 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+/*# User Added CSS */
+
+#twitter{
+  width: 300px;
+  padding-left: 15px;
+}
