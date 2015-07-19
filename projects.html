@@ -21,51 +21,51 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 
 </head>
-<body>
+	<body>
 
-	<!-- Insert Header HTML -->
-<header class="navbar-fixed-top container-fluid">
-	<nav class="navbar navbar-default">
-	  	<div class="container-fluid">
-	    <!-- Brand and toggle get grouped for better mobile display -->
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	      <a class="navbar-brand" href="index.html"><img src="Logo.png"></a>
-	    </div>
+		<!-- Insert Header HTML -->
+		<header class="navbar-fixed-top container-fluid">
+			<nav class="navbar navbar-default">
+			  	<div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="index.html"><img src="Logo.png"></a>
+			    </div>
 
-	    <!-- Nav Links -->
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-nav">
-	        <li class="active"><a href="projects.html">Projects <span class="sr-only">(current)</span></a></li>
-	        <li><a href="#">Contact</a></li>
-	      </ul>
-	      <form class="navbar-form navbar-right" role="search">
-	        <div class="form-group">
-	          <input type="text" class="form-control" placeholder="Search">
-	        </div>
-	        <button type="submit" class="btn btn-default">Submit</button>
-	      </form>
-	      
-	    </div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
-	</nav>
-</header>
+			    <!-- Nav Links -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav">
+			        <li class="active"><a href="projects.html">Projects <span class="sr-only">(current)</span></a></li>
+			        <li><a href="#">Contact</a></li>
+			      </ul>
+			      <form class="navbar-form navbar-right" role="search">
+			        <div class="form-group">
+			          <input type="text" class="form-control" placeholder="Search">
+			        </div>
+			        <button type="submit" class="btn btn-default">Submit</button>
+			      </form>
+			      
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+		</header>
 
-<!-- Send SMS Button with HTTP Request -->
-<container>
-  <form action="https://www.iflow.net/api/sendsms.aspx" method="post" acceptcharset="utf-8">
-    <input type="hidden" name="id" value="">
-    <input type="hidden" name="auth" value="">
-    <input type="text" name="toMobile" placeholder="415 555 1234">
-    <input type="hidden" name="msg" value="https://itunes.apple.com/gb/app/selfiejobs-sok-jobbet-med/id879504246?mt=8">
-    <input type="hidden" name="returnUrl">
-    <input type="submit" name="Submit" value="Send SMS">
-  </form>
-</container>
-</body>
+	<!-- Send SMS Button with HTTP Request -->
+
+	  <form action="https://www.iflow.net/api/sendsms.aspx" method="post" acceptcharset="utf-8">
+	    <input type="hidden" name="id" value="">
+	    <input type="hidden" name="auth" value="">
+	    <input type="text" name="toMobile" placeholder="415 555 1234">
+	    <input type="hidden" name="msg" value="https://itunes.apple.com/gb/app/selfiejobs-sok-jobbet-med/id879504246?mt=8">
+	    <input type="hidden" name="returnUrl">
+	    <input type="submit" name="Submit" value="Send SMS">
+	  </form>
+
+	</body>
 </html>
