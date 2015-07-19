@@ -6808,3 +6808,8 @@ button.close {
   margin-left: auto;
   margin-right: auto;
 }
+
+.fb-post{
+  padding-top: 50px; 
+  padding-left: 15px;
+}
