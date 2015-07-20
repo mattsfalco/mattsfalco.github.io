@@ -42,7 +42,7 @@
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav">
 			        <li class="active"><a href="projects.html">Projects <span class="sr-only">(current)</span></a></li>
-			        <li><a href="#">Contact</a></li>
+			        <li><a href="contact.html">Contact</a></li>
 			      </ul>
 			      <form class="navbar-form navbar-right" role="search">
 			        <div class="form-group">
@@ -56,16 +56,16 @@
 			</nav>
 		</header>
 
-	<!-- Send SMS Button with HTTP Request -->
-
-	  <form action="https://www.iflow.net/api/sendsms.aspx" method="post" acceptcharset="utf-8">
-	    <input type="hidden" name="id" value="">
-	    <input type="hidden" name="auth" value="">
-	    <input type="text" name="toMobile" placeholder="415 555 1234">
-	    <input type="hidden" name="msg" value="https://itunes.apple.com/gb/app/selfiejobs-sok-jobbet-med/id879504246?mt=8">
-	    <input type="hidden" name="returnUrl">
-	    <input type="submit" name="Submit" value="Send SMS">
-	  </form>
-
+		<!-- Send SMS Button with HTTP Request -->
+		<object>
+		  <form style="padding: 100px" action="https://www.iflow.net/api/sendsms.aspx" method="post" acceptcharset="utf-8">
+		    <input type="hidden" name="id" value="">
+		    <input type="hidden" name="auth" value="">
+		    <input type="text" name="toMobile" placeholder="415 555 1234">
+		    <input type="hidden" name="msg" value="Check out our app https://itunes.apple.com/gb/app/selfiejobs-sok-jobbet-med/id879504246?mt=8">
+		    <input type="hidden" name="returnUrl">
+		    <input type="submit" name="Submit" value="Send SMS">
+		  </form>
+		</object>
 	</body>
 </html>
