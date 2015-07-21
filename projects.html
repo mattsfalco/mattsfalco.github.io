@@ -1,26 +1,50 @@
-<html>
-<head>
-<title>Projects</title>
-
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Projects</title>
 	<!-- Additional Fonts Hosted by Google -->
 
-	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light|Exo|Open+Sans|Roboto+Slab|Pacifico|Amatic+SC' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light|Exo|Open+Sans|Roboto+Slab|Pacifico|Amatic+SC' rel='stylesheet' type='text/css'>
 
 	<!-- Define charset and add meta data -->
 
-	<meta charset="UTF-8">
-	<meta name="description" content="This is a technical CV that will display coding knowledge based on traditional CV design. HTML, Javascript and CSS. Other languages will be displayed in plain text code snippets.">
-	<meta name="author" content="Matthew Falco">
-
-	<!-- Set the Viewpoint -->
-
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8">
+		<meta name="author" content="Matthew Falco">
+		<meta name="description" content="Projects I have done.">
 
 	<!-- Link Stylesheet -->
 
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 
-</head>
+	<!-- Set the Viewpoint -->
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Include Bootstrap -->
+
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<!-- Additional CSS -->
+
+		<style>
+			html{
+				width: 100%;
+				height: 100%;
+			}
+			body{
+				padding-top: 70px;
+				width: 100%;
+				height: 100%;
+			}
+			.center{
+				padding: 15px;
+				position: relative;
+			}
+		</style>
+
+	</head>
 	<body>
 
 		<!-- Insert Header HTML -->
@@ -58,7 +82,7 @@
 
 		<!-- Send SMS Button with HTTP Request -->
 		<object>
-		  <form style="padding: 100px" action="https://www.iflow.net/api/sendsms.aspx" method="post" acceptcharset="utf-8">
+		  <form style="padding: 10px" action="https://www.iflow.net/api/sendsms.aspx" method="post" acceptcharset="utf-8">
 		    <input type="hidden" name="id" value="">
 		    <input type="hidden" name="auth" value="">
 		    <input type="text" name="toMobile" placeholder="415 555 1234">
