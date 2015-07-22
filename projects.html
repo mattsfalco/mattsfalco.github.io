@@ -45,10 +45,14 @@
  				 -webkit-justify-content: center;
   				align-items: center;
  				 -webkit-align-items: center;
+ 				/* http://stackoverflow.com/questions/31526022/why-i-cannot-center-a-div-directly-in-the-body */
  			}
 			.center{
 				padding: 15px;
 				position: relative;
+			}
+			.space{
+				margin: 0px 0px 10px 0px;
 			}
 		</style>
 
@@ -89,15 +93,18 @@
 		</header>
 
 		<!-- Send SMS Button with HTTP Request -->
-		<object>
-		  <form style="padding: 10px" action="https://www.iflow.net/api/sendsms.aspx" method="post" acceptcharset="utf-8">
-		    <input type="hidden" name="id" value="">
-		    <input type="hidden" name="auth" value="">
-		    <input type="text" name="toMobile" placeholder="415 555 1234">
-		    <input type="hidden" name="msg" value="Check out our app https://itunes.apple.com/gb/app/selfiejobs-sok-jobbet-med/id879504246?mt=8">
-		    <input type="hidden" name="returnUrl">
-		    <input type="submit" name="Submit" value="Send SMS">
-		  </form>
-		</object>
+		<h4>Send SMS with HTTP Request</h4>
+			<object style="max-width: 300px;">
+				<p>Send an SMS to an iPhone for the download of an application or specific webapp.</p>
+				
+				<form style="padding: 10px;" action="https://www.iflow.net/api/sendsms.aspx" method="post" acceptcharset="utf-8">
+				    <input type="hidden" name="id" value="">
+				    <input type="hidden" name="auth" value="">
+				    <input type="text" name="toMobile" class="form-control space"placeholder="415 555 1234">
+				    <input type="text" name="msg" class="form-control space" placeholder="Copy Link Here">
+				    <input type="hidden" name="returnUrl">
+				    <button type="submit" class="btn btn-primary btn-lg active btn-block" name="Submit">Send SMS</button>
+				</form>
+			</object>
 	</body>
 </html>
