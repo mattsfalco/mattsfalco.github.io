@@ -104,7 +104,7 @@
 				<form style="padding: 10px;" action="https://www.iflow.net/api/sendsms.aspx" method="post" acceptcharset="utf-8">
 				    <input type="hidden" name="id" value="">
 				    <input type="hidden" name="auth" value="">
-				    <input type="text" name="toMobile" class="form-control space"placeholder="415 555 1234">
+				    <input type="number" name="toMobile" class="form-control space" pattern="\d*" placeholder="415 555 1234">
 				    <input type="text" name="msg" class="form-control space" placeholder="Copy Link Here">
 				    <input type="hidden" name="returnUrl">
 				    <div class="g-recaptcha space" data-sitekey="6LfnKQoTAAAAAC-7_BAsnSyICglBUvDQkNcUev0g"></div>
