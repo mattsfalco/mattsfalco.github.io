@@ -36,7 +36,7 @@
 			<!-- Firefox, Chrome, Safari, IE 11+ and Opera. 196x196 pixels in size. -->
 
 			<link rel="icon" href="Favicon.png">
-			
+
 	<!-- Google Analytics Tracking Code -->
 
 			<script>
@@ -61,7 +61,12 @@
 				width: 100%;
 				height: 100%;
 				margin: auto;
+				display: block;
+				background-color: black;
 
+				/*background-image: url("ProfileShot.jpeg");
+				background-size: 400px 540px;
+				background-repeat: no-repeat; */
 				
 				/* display: flex;
   				display: -webkit-flex;
@@ -76,7 +81,7 @@
 				margin: 5px;
 			}
 			.right {
-			    position: absolute;
+			    position: fixed;
 			    right: 0px;
 			    width: 300px;
 			    background-color: transparent;
@@ -89,6 +94,24 @@
 			}
 			.navbar-default{
 				background-color: transparent;
+			}
+			#social{
+				display: block;
+				max-width: 200px;
+				margin: auto;
+				margin-top: 10px;
+				border: 3px solid black;
+				position: static;
+
+			}
+			#contact{
+				display: block;
+				max-width: 200px;
+				margin: auto;
+				border: 3px solid black;
+				position: static;
+				margin-top: 10px;
+				color: white;
 			}
 		</style>
 	</head>
@@ -128,38 +151,41 @@
 			  	</div><!-- /.container-fluid -->
 			</nav>	
 		</header>
-				<img style="width: 200px; height: 270px; margin-top: 70px; margin-bottom: 10px;" src="ProfileShot.jpeg" alt="ProfileShot"> 
-		  		
-				<!-- Facebook Badge START --><a href="https://www.facebook.com/matthew.stephen.falco" title="Matt Falco" target="_TOP"><img class="img" src="https://badge.facebook.com/badge/530636547.271.1926266899.png" style="border: 0px; margin-bottom: 10px;" alt="" /></a><!-- Facebook Badge END -->
-			
-				<!-- Twitter Follow Button START-->
-				<a href="https://twitter.com/mattsfalco" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @mattsfalco</a>
-				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-				<!-- Twitter Follow Button END -->
-			
-
-				<!-- Linkedin Badge START -->
-				<a href="https://se.linkedin.com/pub/matthew-falco/26/592/808">
-
-				<img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" style="margin-bottom: 5px;" width="160" height="33" border="0" alt="View Matthew Falco's profile on LinkedIn"></a>
-				<!-- Linkedin Badge END -->
-
-				
+				 
+		  	<div id="social">
+		  		<div>
+					<!-- Facebook Badge START --><a href="https://www.facebook.com/matthew.stephen.falco" title="Matt Falco" target="_TOP"><img class="img" src="https://badge.facebook.com/badge/530636547.271.1926266899.png" style="border: 0px; margin-bottom: 10px;" alt="" /></a><!-- Facebook Badge END -->
+				</div>
 				<div>
-				<i class="fa fa-phone-square fa-5x"></i>
-		        <h3>Call</h3>
-		        <p><h5>Sweden:</h5> +46 (0) 72-912 88 24</p>
-		        <p><h5>US:</h5> +1 (707) 932-5262</p>
-		        <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
-						<div id="SkypeButton_Call_matthew.falco_1">
-						  <script type="text/javascript">
-						    Skype.ui({
-						      "name": "call",
-						      "element": "SkypeButton_Call_matthew.falco_1",
-						      "participants": ["matthew.falco"],
-						      "imageSize": 32
-						    });
-						  </script>
+					<!-- Twitter Follow Button START-->
+					<a href="https://twitter.com/mattsfalco" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @mattsfalco</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+					<!-- Twitter Follow Button END -->
+				</div>
+				<div>
+					<!-- Linkedin Badge START -->
+					<a href="https://se.linkedin.com/pub/matthew-falco/26/592/808">
+
+					<img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" style="margin-bottom: 5px;" width="160" height="33" border="0" alt="View Matthew Falco's profile on LinkedIn"></a>
+					<!-- Linkedin Badge END -->
+				</div>
+			</div>
+				
+				<div id="contact">
+					<i class="fa fa-phone-square fa-5x"></i>
+			        <h3>Call</h3>
+			        <p><h5>Sweden:</h5> +46 (0) 72-912 88 24</p>
+			        <p><h5>US:</h5> +1 (707) 932-5262</p>
+			        <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+							<div id="SkypeButton_Call_matthew.falco_1">
+							  <script type="text/javascript">
+							    Skype.ui({
+							      "name": "call",
+							      "element": "SkypeButton_Call_matthew.falco_1",
+							      "participants": ["matthew.falco"],
+							      "imageSize": 32
+							    });
+							  </script>
 							</div>
 	       		</div>
 	    
