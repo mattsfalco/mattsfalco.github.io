@@ -82,21 +82,18 @@
  				max-width: 600px;
  				
  			}
+ 			div.row{
+ 				display: inline;
+
+ 			}
  			.logo{
  				width: 150px; 
  				padding-left: 10px; 
  				margin-bottom: 5px;
  			}
- 				
- 			}
-			#twitter{
-				padding: 15px;
+			div.jumbotron{
 				text-align: center;
-
-			}
-			.jumbotron{
-				text-align: center;
-				background-color: white;
+				background-color: #ffffff;
 				max-width: 600px;
 				margin: auto;
 				margin-top: 30px;
@@ -108,6 +105,7 @@
 			#twitter{
 				padding: 15px;
 				max-width: 500px;
+				text-align: center;
  				margin: auto;
 			}
 		</style>
@@ -143,15 +141,60 @@
 			</nav>	
 		</header>
 
-		<div class="container-fluid">
+		<div style="margin-top: 50px; margin-right: 15px; margin-left: 15px" class="container-fluid">
 			<div class="jumbotron">
-			  <h1 style="margin-left: 2px;, margin-right: 2px;">Startup skills and beyond</h1>
-			  <p>Check out the different <a href="projects">projects</a> I've made to get a better understanding of my technical skills or see my CV to see who I've worked with.</p>
-			  <p><a class="btn btn-primary btn-lg" href="aboutme.html" role="button">Learn about Matt</a></p>
+			  <h1 style="margin-left: 15px;, margin-right: 15px;">Welcome to MattFalco.com</h1>
+			  <p style="margin-left: 20px;, margin-right: 5px;">Check out the different <a href="projects">projects</a> I've made to get a better understanding of my technical skills or see my CV to see who I've worked with.</p>
+			  <p style="margin-left: 20px; margin-right: 20px"><a class="btn btn-primary btn-lg" href="aboutme.html" role="button">Learn about Matt</a></p>
+			</div>
+		</div>
+		<h1 style="margin: auto; padding-top: 20px; text-align: center; color: white;">Certifications</h1>
+		<div class="container-fluid">
+			<div class="row">
+			  <div class="col-md-4">
+			    <div class="thumbnail">
+			      <img src="CV Assets/analytics.jpg" alt="analytics">
+			      <div class="caption">
+			        <h3 style="text-align: center;">Analytics and Tracking</h3>
+			        <p style="text-align: center;">See how your business can benefit from an analytic professional. </p>
+			        <p style="text-align: center;"><a href="#" class="btn btn-primary" role="button">Learn More</a></p>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col-md-4">
+			    <div class="thumbnail">
+			      <img src="CV Assets/adwords.png" alt="adwords">
+			      <div class="caption">
+			        <h3 style="text-align: center;">Advertising and Deep Linking</h3>
+			        <p style="text-align: center;">Promote your brand, increase downloads or drive relevant traffic to your website, web app, or mobile app. Learn how deep linking can get users right to the content they searched for.</p>
+			        <p style="text-align: center;"><a href="#" class="btn btn-primary" role="button">Learn More</a></p>
+			      </div>
+			    </div>
+			  </div>
+			   <div class="col-md-4">
+			    <div class="thumbnail">
+			      <img src="CV Assets/html-css.png" alt="html-css">
+			      <div class="caption">
+			        <h3 style="text-align: center;">Develop your website</h3>
+			        <p style="text-align: center;">Get a dynamic website that is responsive, lightwieght and customized for your business.</p>
+			        <p style="text-align: center;"><a href="#" class="btn btn-primary" role="button">Learn More</a></p>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col-md-12">
+			    <div class="thumbnail">
+			      <iframe style="width: 100%; height: 400px;" src="https://www.codecademy.com/Gingerjoo"></iframe>
+			      <div class="caption">
+			        <h3 style="text-align: center;">Thumbnail label</h3>
+			        <p style="text-align: center;">...</p>
+			        <p style="text-align: center;"><a href="#" class="btn btn-primary" role="button">Learn More</a></p>
+			      </div>
+			    </div>
+			  </div>
 			</div>
 		</div>
 
-		<!-- Twitter Feed -->
+		<!-- Twitter Feed --
 			<div id="twitter">
 				<a class="twitter-timeline" href="https://twitter.com/mattsfalco" data-widget-id="622010981259038720">Tweets by @mattsfalco
 				</a>
@@ -159,6 +202,6 @@
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 				</script>
 			</div>
-
+		<!-- Twitter Feed END -->
 	</body>
 </html>
