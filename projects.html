@@ -65,7 +65,11 @@
 				padding-top: 50px;
 				width: 100%;
 				height: 100%;
-				display: flex;
+				
+				text-align: center;
+
+
+				/* display: flex;
   				display: -webkit-flex;
   				flex-direction: column;
   				-webkit-flex-direction: column;
@@ -84,6 +88,15 @@
 			}
 			.navbar-default{
 				background-color: transparent;
+			}
+			#sms{
+				width: 300px;
+				margin: auto;
+			}
+			#blc{
+				width: 70%;
+				min-width: 350px;
+				height: 600px;
 			}
 		</style>
 
@@ -118,8 +131,8 @@
 			</nav>
 		</header>
 
-		<!-- Send SMS Button with HTTP Request -->
-
+		<!-- Send SMS Button with HTTP Request --
+		<div id="sms">
 		<h4>Send SMS with HTTP Request</h4>
 			<object style="max-width: 323px;">
 				<p style="margin: 0px 0px 0px 10px;">Send an SMS to an iPhone for the download of an application or specific webapp.<span style="color:red;"> Currently In Development.</span></p>
@@ -134,5 +147,16 @@
 				    <button type="submit" disabled="disabled" class="btn btn-primary btn-lg active btn-block" name="Submit">Send SMS</button>
 				</form>
 			</object>
+		</div>
+		<!-- Send SMS Button with HTTP Request END -->
+		
+		<!-- Embeded Google Site -->
+		<h2>Google Sites</h2>
+		<h4>Get your ideal website built responsive and beautifully all within Google Sites. Code-free management of your website after its delivered!</h4>
+		<h3>Client: BLC Advisors</h3>
+		<iframe id="blc" src="https://sites.google.com/site/consultancytemplate/home?previewAsViewer=1&mobile=true"></iframe>
+
+		<!-- Embeded Google Site END-->
+
 	</body>
 </html>
