@@ -38,18 +38,18 @@
 
 			<link rel="icon" href="Favicon.png">
 
-			<!-- Google Analytics Tracking Code -->
+		<!-- Google Analytics Tracking Code -->
 
-			<script>
-			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-			  ga('create', 'UA-67696890-1', 'auto');
-			  ga('send', 'pageview');
+		  ga('create', 'UA-67696890-1', 'auto');
+		  ga('send', 'pageview');
 
-			</script>
+		</script>
 
 		<!-- Additional CSS -->
 		
@@ -93,11 +93,10 @@
  			}
 			div.jumbotron{
 				text-align: center;
-				background-color: #ffffff;
+				background-color: transparent;
 				max-width: 600px;
 				margin: auto;
 				margin-top: 30px;
-				background: transparent;
 
 			}
 			div.thumbnail{
@@ -107,11 +106,53 @@
 			.navbar-default{
 				background-color: transparent;
 			}
+			.navbar-collapse{
+				text-align: center;
+			}
 			#twitter{
 				padding: 15px;
 				max-width: 500px;
 				text-align: center;
  				margin: auto;
+			}
+			.navbar-brand{
+				left: 0px;
+
+			}
+			#certifications{
+				background: url("CV Assets/town.jpg");
+				background-repeat: no-repeat;
+				
+				background-attachment: ;
+				background-size: cover;
+			}
+			#photography{
+				background: url("CV Assets/booth.jpg");
+				background-repeat: no-repeat;
+				color: white;
+				background-attachment: ;
+				background-size: cover;
+			}
+			#cover{
+				background: url("CV Assets/bridge2.jpg");
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.staple{
+				margin-top: -28px;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.staplediv{
+				display: block;
+				border: 2px transparent solid;
+			}
+			.photos{
+				border: 3px solid black;
+				border-radius: 15px;
 			}
 		</style>
 
@@ -139,20 +180,38 @@
 				      <ul class="nav navbar-nav">
 				      	<li><a href="/aboutme">About Me</a></li>
 				        <li><a href="/projects">Projects</a></li>
+
+				        <!--li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="#">Web Design</a></li>
+				            <li><a href="#">Photography</a></li>
+				            <li><a href="#">Adwords & Analytics</a></li>
+				          </ul>
+				        </li> -->
+
 				        <li><a href="/contact">Contact</a></li>
 				      </ul>
 				    </div><!-- /.navbar-collapse -->
 			  	</div><!-- /.container-fluid -->
 			</nav>	
 		</header>
-
-		<div style="margin-top: 20px; margin-right: 15px; margin-left: 15px" class="container-fluid">
-			<div class="jumbotron">
-			  <h1 style="text-align: center; margin-left: 15px;, margin-right: 15px;">Welcome</h1>
-			  <div style="text-align: center margin-left: 10px;, margin-right: 10px;"><p style="text-align: center; margin-left: 10px; margin-right: 10px;">Check out the different <a href="projects">projects</a> I've made to get a better understanding of my technical skills or see my CV to see who I've worked with.</p></div>
-			  <p style="margin-left: 20px; margin-right: 20px"><a class="btn btn-primary btn-lg" href="/aboutme" role="button">Learn about Matt</a></p>
+		<!-- Cover START -->
+		<div id="cover">
+			<div style="margin-right: 15px; margin-left: 15px" class="container-fluid">
+				<div class="jumbotron">
+				  <h1 style="text-align: center; margin-left: 15px;, margin-right: 15px;">Welcome</h1>
+				  <div style="text-align: center margin-left: 10px;, margin-right: 10px;"><p style="text-align: center; margin-left: 10px; margin-right: 10px;">Check out the different <a href="projects">projects</a> I've made to get a better understanding of my technical skills or see my CV to see who I've worked with.</p></div>
+				  <p style="margin-left: 20px; margin-right: 20px"><a class="btn btn-primary btn-lg" href="/aboutme" role="button">Learn about Matt</a></p>
+				</div>
 			</div>
 		</div>
+		<!-- Cover END -->
+
+		<!-- Cerfitications START -->
+
+		<div id="certifications">
+			<div class="staplediv"><img class="staple" alt="staple" src="logo.png"></div>
 		<h1 style="margin: auto; padding-top: 20px; text-align: center; color: black;">Certifications</h1>
 		<div class="container-fluid">
 			<div class="row">
@@ -186,7 +245,59 @@
 			      </div>
 			    </div>
 			  </div>
+
+			</div>
+		</div>
+		</div> <!--Certifications END -->
+
+		<!-- Photography START -->
+
+		<div id="photography">
+			<div class="staplediv"><img class="staple" alt="staple" src="logo.png"></div>
+		<h1 style="margin: auto; padding-top: 20px; text-align: center;">Photography</h1>
+		<div class="container-fluid">
+			<div class="row">
 			  <div class="col-md-4">
+			    <div class="thumbnail">
+			      <img class="photos" src="CV Assets/flower.jpg" alt="lake">
+			      <div style="color: white" class="caption">
+			        <h3 style="text-align: center;">Nature & Animals</h3>
+			        <p style="text-align: center;">Stunning images of plants, landscapes, lakes, rivers, and animals.</p>
+			        <p style="text-align: center;"><a href="/contact" class="btn btn-primary" role="button">Learn More</a></p>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col-md-4">
+			    <div class="thumbnail">
+			      <img class="photos" src="CV Assets/building.jpg" alt="adwords">
+			      <div style="color: white" class="caption">
+			        <h3 style="text-align: center;">Urban</h3>
+			        <p style="text-align: center;">City life with an emphasis on buildings, markets, people and urban life.</p>
+			        <p style="text-align: center;"><a href="/contact" class="btn btn-primary" role="button">Learn More</a></p>
+			      </div>
+			    </div>
+			  </div>
+			   <div class="col-md-4">
+			    <div class="thumbnail">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sus!4v1444138960057!6m8!1m7!1srR8mp3c5XZoAAAAGOphoBg!2m2!1d37.7721156146719!2d-122.4320004581325!3f237.30982856363988!4f47.09499926681087!5f0.7820865974627469" width="100%" height="285px" frameborder="0" style="border: 3px solid black;" allowfullscreen></iframe>
+					
+			      <div style="color: white" class="caption">
+			        <h3 style="text-align: center;">Business View</h3>
+			        <p style="text-align: center;">Have customers virtually walk through your business before the visit with a Business view walkthrogh. Great for restauarants, hotels, co-working spaces and more!</p>
+			        <p style="text-align: center;"><a href="/contact" class="btn btn-primary" role="button">Learn More</a></p>
+			      </div>
+			    </div>
+			  </div>
+
+			</div>
+		</div>
+		</div> <!--Photography END -->
+
+		<div class="staplediv"><img class="staple" alt="staple" src="logo.png"></div>
+
+		<!-- Skills Start -->
+		<div id="skills">
+						  <div class="col-md-4">
 			    <div class="thumbnail">
 			      <img src="CV Assets/codeacademy.png" alt="codeacademy">
 			      <div class="caption">
@@ -196,7 +307,6 @@
 			      </div>
 			    </div>
 			  </div>
-			</div>
 		</div>
 
 		<!-- Twitter Feed --
