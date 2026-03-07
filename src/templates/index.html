@@ -1,0 +1,96 @@
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container">
+    <div class="hero__content animate">
+      <div class="hero__avatar-wrap">
+        <img src="{{{avatar_url}}}?size=400" alt="{{name}}" class="hero__avatar">
+        <div class="hero__avatar-ring"></div>
+      </div>
+      <h1 class="hero__name">{{name}}</h1>
+      <p class="hero__title">{{headline}}</p>
+      <p class="hero__location">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        {{location}}
+      </p>
+      <div class="hero__social">
+        {{#each social_accounts}}
+        <a href="{{{this.url}}}" target="_blank" rel="noopener noreferrer" class="hero__social-link" title="{{this.service_label}}">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="{{socialIcon this.service_type}}"/></svg>
+        </a>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Preview -->
+{{#if summary}}
+<section class="section">
+  <div class="container">
+    <div class="glass-card animate">
+      <h2 class="section__title">About</h2>
+      <p class="about__text">{{summary}}</p>
+      <a href="/about.html" class="btn">Learn more &rarr;</a>
+    </div>
+  </div>
+</section>
+{{/if}}
+
+<!-- Experience -->
+{{#if experience}}
+<section class="section">
+  <div class="container">
+    <h2 class="section__title animate">Experience</h2>
+    <div class="timeline">
+      {{#each experience}}
+      <div class="timeline__item glass-card animate">
+        <div class="timeline__dot"></div>
+        <div class="timeline__header">
+          <h3 class="timeline__title">{{this.title}}</h3>
+          <span class="timeline__company">{{this.company}}</span>
+        </div>
+        <div class="timeline__meta">
+          <span class="timeline__date">{{this.start_date}} &mdash; {{currentOrDate this.end_date this.current}}</span>
+          {{#if this.location}}<span class="timeline__location">{{this.location}}</span>{{/if}}
+        </div>
+        {{#if this.description}}<p class="timeline__desc">{{this.description}}</p>{{/if}}
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+{{/if}}
+
+<!-- Projects -->
+{{#if projects}}
+<section class="section">
+  <div class="container">
+    <h2 class="section__title animate">Projects</h2>
+    <div class="grid grid--2">
+      {{#each projects}}
+      <div class="glass-card animate">
+        <h3 class="card__title">{{this.name}}</h3>
+        <p class="card__desc">{{this.description}}</p>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+{{/if}}
+
+<!-- Interests Preview -->
+{{#if interests}}
+<section class="section">
+  <div class="container">
+    <h2 class="section__title animate">Interests</h2>
+    <div class="tags animate">
+      {{#each interests}}
+      <span class="tag">{{this}}</span>
+      {{/each}}
+    </div>
+    <div class="section__cta animate">
+      <a href="/interests.html" class="btn btn--outline">See all interests &rarr;</a>
+    </div>
+  </div>
+</section>
+{{/if}}

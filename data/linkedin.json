@@ -1,0 +1,100 @@
+{
+  "_source": "https://www.linkedin.com/in/matthewstephenfalco",
+  "_updated_at": "2026-03-07T00:00:00Z",
+  "_note": "This file is manually maintained. Update it when your LinkedIn profile changes.",
+  "headline": "Digital Transformation & Innovation Leader",
+  "summary": "Specialising in Digital Transformation and Innovation for companies looking to reinvent their digital presence and operations. Experienced in API development, e-commerce solutions, payment systems, and smart infrastructure.",
+  "experience": [
+    {
+      "company": "Mitigram",
+      "title": "Senior Technology Lead",
+      "location": "Stockholm, Sweden",
+      "start_date": "2021",
+      "end_date": null,
+      "current": true,
+      "description": "Leading digital transformation initiatives in the trade finance space."
+    },
+    {
+      "company": "Falco Consulting AB",
+      "title": "Owner & Consultant",
+      "location": "Stockholm, Sweden",
+      "start_date": "2018",
+      "end_date": null,
+      "current": true,
+      "description": "Independent consulting focused on digital transformation, API strategy, and e-commerce solutions."
+    }
+  ],
+  "education": [
+    {
+      "school": "San Francisco State University",
+      "degree": "Business Administration",
+      "field": "Investments, Institutions & Decision Sciences",
+      "start_date": "2012",
+      "end_date": "2014"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Vibe Coding",
+      "issuer": "LOVABLE",
+      "date": "2025"
+    },
+    {
+      "name": "Google Adwords Fundamentals & Mobile",
+      "issuer": "Google",
+      "date": "2016"
+    },
+    {
+      "name": "Google Analytics Certified",
+      "issuer": "Google",
+      "date": "2015"
+    }
+  ],
+  "languages": [
+    { "language": "English", "proficiency": "Native" },
+    { "language": "Swedish", "proficiency": "Professional working" }
+  ],
+  "volunteer": [
+    {
+      "organization": "Hundar Utan Hem",
+      "role": "Dog Rescue Volunteer",
+      "start_date": "2018",
+      "end_date": "2021",
+      "description": "Animal welfare work rescuing and rehoming shelter dogs."
+    },
+    {
+      "organization": "Alpha Epsilon Pi",
+      "role": "Recruitment Chairman",
+      "description": "Led fraternity recruitment efforts."
+    }
+  ],
+  "interests": [
+    "Golf",
+    "Wine Making",
+    "Gardening",
+    "DIY Projects",
+    "3D Printing",
+    "Guitar",
+    "Singing",
+    "Home Automation",
+    "Smart Home / IoT"
+  ],
+  "projects": [
+    {
+      "name": "E-commerce API Suite",
+      "description": "API suite for Buy Now Pay Later providers"
+    },
+    {
+      "name": "Credable API Documentation",
+      "description": "Comprehensive API documentation platform"
+    },
+    {
+      "name": "Olive U Naturally",
+      "description": "Shopify e-commerce website"
+    },
+    {
+      "name": "Smart Home Infrastructure",
+      "description": "Extensive local smart home implementation with IoT integration"
+    }
+  ]
+}

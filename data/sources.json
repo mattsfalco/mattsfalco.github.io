@@ -1,0 +1,25 @@
+{
+  "sources": [
+    {
+      "name": "gravatar",
+      "type": "api",
+      "fetcher": "gravatar",
+      "config": {
+        "username": "matthewstephenfalco",
+        "endpoint": "https://api.gravatar.com/v3/profiles/matthewstephenfalco"
+      },
+      "output": "data/gravatar.json",
+      "schedule": "daily"
+    },
+    {
+      "name": "linkedin",
+      "type": "manual",
+      "fetcher": "linkedin",
+      "config": {
+        "profile_url": "https://www.linkedin.com/in/matthewstephenfalco"
+      },
+      "output": "data/linkedin.json",
+      "schedule": "manual"
+    }
+  ]
+}

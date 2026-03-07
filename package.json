@@ -1,0 +1,15 @@
+{
+  "name": "mattsfalco-website",
+  "version": "1.0.0",
+  "description": "Personal website for Matthew Falco - auto-synced from Gravatar & LinkedIn",
+  "private": true,
+  "scripts": {
+    "fetch": "node scripts/fetch-sources.js",
+    "build": "node scripts/build.js",
+    "dev": "npm run fetch && npm run build"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "marked": "^12.0.0"
+  }
+}

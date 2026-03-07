@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{name}} — {{headline}}</title>
+  <meta name="description" content="{{summary}}">
+  <meta name="author" content="{{name}}">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{name}}">
+  <meta property="og:description" content="{{headline}}">
+  <meta property="og:image" content="{{{avatar_url}}}">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="{{{avatar_url}}}?size=32" sizes="32x32">
+  <link rel="apple-touch-icon" href="{{{avatar_url}}}?size=180">
+</head>
+<body>
+  <!-- Animated background -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow--1" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow--2" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo">
+        <img src="{{{avatar_url}}}?size=40" alt="" class="nav__avatar">
+        <span class="nav__name">{{name}}</span>
+      </a>
+      <div class="nav__links">
+        <a href="/" class="nav__link {{#if (eq page 'index')}}nav__link--active{{/if}}">Home</a>
+        <a href="/about.html" class="nav__link {{#if (eq page 'about')}}nav__link--active{{/if}}">About</a>
+        <a href="/interests.html" class="nav__link {{#if (eq page 'interests')}}nav__link--active{{/if}}">Interests</a>
+      </div>
+      <button class="nav__toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav__links').classList.toggle('nav__links--open')">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+  <main class="main">
+    {{{content}}}
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__social">
+          {{#each social_accounts}}
+          <a href="{{{this.url}}}" target="_blank" rel="noopener noreferrer" class="footer__social-link" title="{{this.service_label}}">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="{{socialIcon this.service_type}}"/></svg>
+          </a>
+          {{/each}}
+        </div>
+        <p class="footer__copy">&copy; {{year}} {{name}}. Built with data from
+          <a href="{{{profile_url}}}" target="_blank">Gravatar</a> &amp;
+          <a href="https://www.linkedin.com/in/matthewstephenfalco" target="_blank">LinkedIn</a>.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll animations -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate-in');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+      document.querySelectorAll('.animate').forEach((el) => observer.observe(el));
+
+      // Nav background on scroll
+      const nav = document.getElementById('nav');
+      window.addEventListener('scroll', () => {
+        nav.classList.toggle('nav--scrolled', window.scrollY > 50);
+      });
+    });
+  </script>
+</body>
+</html>

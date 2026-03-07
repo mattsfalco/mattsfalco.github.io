@@ -1,0 +1,48 @@
+<!-- Interests Hero -->
+<section class="page-hero">
+  <div class="container">
+    <h1 class="page-hero__title animate">Interests & Hobbies</h1>
+    <p class="page-hero__subtitle animate">Beyond the code</p>
+  </div>
+</section>
+
+<!-- Interests Grid -->
+<section class="section">
+  <div class="container">
+    <div class="interests-grid">
+      {{#each interests}}
+      <div class="interest-card glass-card animate">
+        <div class="interest-card__icon">
+          {{#if (eq this "Golf")}}&#9971;{{/if}}
+          {{#if (eq this "Wine Making")}}&#127863;{{/if}}
+          {{#if (eq this "Gardening")}}&#127793;{{/if}}
+          {{#if (eq this "DIY Projects")}}&#128295;{{/if}}
+          {{#if (eq this "3D Printing")}}&#9881;{{/if}}
+          {{#if (eq this "Guitar")}}&#127928;{{/if}}
+          {{#if (eq this "Singing")}}&#127908;{{/if}}
+          {{#if (eq this "Home Automation")}}&#127968;{{/if}}
+          {{#if (eq this "Smart Home / IoT")}}&#128225;{{/if}}
+        </div>
+        <h3 class="interest-card__title">{{this}}</h3>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+{{#if projects}}
+<section class="section">
+  <div class="container">
+    <h2 class="section__title animate">Side Projects</h2>
+    <div class="grid grid--2">
+      {{#each projects}}
+      <div class="glass-card animate">
+        <h3 class="card__title">{{this.name}}</h3>
+        <p class="card__desc">{{this.description}}</p>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+{{/if}}

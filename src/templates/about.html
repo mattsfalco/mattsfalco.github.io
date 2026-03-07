@@ -1,0 +1,114 @@
+<!-- About Hero -->
+<section class="page-hero">
+  <div class="container">
+    <h1 class="page-hero__title animate">About Me</h1>
+    <p class="page-hero__subtitle animate">{{headline}}</p>
+  </div>
+</section>
+
+<!-- Summary -->
+{{#if summary}}
+<section class="section">
+  <div class="container">
+    <div class="glass-card glass-card--wide animate">
+      <p class="about__text about__text--large">{{summary}}</p>
+    </div>
+  </div>
+</section>
+{{/if}}
+
+<!-- Experience -->
+{{#if experience}}
+<section class="section">
+  <div class="container">
+    <h2 class="section__title animate">Experience</h2>
+    <div class="timeline">
+      {{#each experience}}
+      <div class="timeline__item glass-card animate">
+        <div class="timeline__dot"></div>
+        <div class="timeline__header">
+          <h3 class="timeline__title">{{this.title}}</h3>
+          <span class="timeline__company">{{this.company}}</span>
+        </div>
+        <div class="timeline__meta">
+          <span class="timeline__date">{{this.start_date}} &mdash; {{currentOrDate this.end_date this.current}}</span>
+          {{#if this.location}}<span class="timeline__location">{{this.location}}</span>{{/if}}
+        </div>
+        {{#if this.description}}<p class="timeline__desc">{{this.description}}</p>{{/if}}
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+{{/if}}
+
+<!-- Education -->
+{{#if education}}
+<section class="section">
+  <div class="container">
+    <h2 class="section__title animate">Education</h2>
+    <div class="grid grid--1">
+      {{#each education}}
+      <div class="glass-card animate">
+        <h3 class="card__title">{{this.school}}</h3>
+        <p class="card__subtitle">{{this.degree}} — {{this.field}}</p>
+        <span class="card__meta">{{this.start_date}} &mdash; {{this.end_date}}</span>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+{{/if}}
+
+<!-- Certifications -->
+{{#if certifications}}
+<section class="section">
+  <div class="container">
+    <h2 class="section__title animate">Certifications</h2>
+    <div class="grid grid--3">
+      {{#each certifications}}
+      <div class="glass-card glass-card--sm animate">
+        <h3 class="card__title card__title--sm">{{this.name}}</h3>
+        <p class="card__meta">{{this.issuer}} &middot; {{this.date}}</p>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+{{/if}}
+
+<!-- Languages -->
+{{#if languages}}
+<section class="section">
+  <div class="container">
+    <h2 class="section__title animate">Languages</h2>
+    <div class="grid grid--2">
+      {{#each languages}}
+      <div class="glass-card glass-card--sm animate">
+        <h3 class="card__title">{{this.language}}</h3>
+        <p class="card__meta">{{this.proficiency}}</p>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+{{/if}}
+
+<!-- Volunteer -->
+{{#if volunteer}}
+<section class="section">
+  <div class="container">
+    <h2 class="section__title animate">Volunteer Work</h2>
+    <div class="grid grid--2">
+      {{#each volunteer}}
+      <div class="glass-card animate">
+        <h3 class="card__title">{{this.organization}}</h3>
+        <p class="card__subtitle">{{this.role}}</p>
+        {{#if this.description}}<p class="card__desc">{{this.description}}</p>{{/if}}
+        {{#if this.start_date}}<span class="card__meta">{{this.start_date}} &mdash; {{this.end_date}}</span>{{/if}}
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+{{/if}}
