@@ -2,7 +2,7 @@
 <section class="page-hero">
   <div class="container">
     <h1 class="page-hero__title animate">About Me</h1>
-    <p class="page-hero__subtitle animate">{{headline}}</p>
+    {{#if headline}}<p class="page-hero__subtitle animate">{{headline}}</p>{{/if}}
   </div>
 </section>
 
@@ -27,13 +27,15 @@
       <div class="timeline__item glass-card animate">
         <div class="timeline__dot"></div>
         <div class="timeline__header">
-          <h3 class="timeline__title">{{this.title}}</h3>
+          {{#if this.title}}<h3 class="timeline__title">{{this.title}}</h3>{{/if}}
           <span class="timeline__company">{{this.company}}</span>
         </div>
+        {{#if (or this.start_date this.location)}}
         <div class="timeline__meta">
-          <span class="timeline__date">{{this.start_date}} &mdash; {{currentOrDate this.end_date this.current}}</span>
+          {{#if this.start_date}}<span class="timeline__date">{{this.start_date}} &mdash; {{currentOrDate this.end_date this.current}}</span>{{/if}}
           {{#if this.location}}<span class="timeline__location">{{this.location}}</span>{{/if}}
         </div>
+        {{/if}}
         {{#if this.description}}<p class="timeline__desc">{{this.description}}</p>{{/if}}
       </div>
       {{/each}}
@@ -51,7 +53,8 @@
       {{#each education}}
       <div class="glass-card animate">
         <h3 class="card__title">{{this.school}}</h3>
-        <p class="card__subtitle">{{this.degree}} — {{this.field}}</p>
+        {{#if this.degree}}<p class="card__subtitle">{{this.degree}} — {{this.field}}</p>
+        {{else}}{{#if this.field}}<p class="card__subtitle">{{this.field}}</p>{{/if}}{{/if}}
         <span class="card__meta">{{this.start_date}} &mdash; {{this.end_date}}</span>
       </div>
       {{/each}}
@@ -69,7 +72,7 @@
       {{#each certifications}}
       <div class="glass-card glass-card--sm animate">
         <h3 class="card__title card__title--sm">{{this.name}}</h3>
-        <p class="card__meta">{{this.issuer}} &middot; {{this.date}}</p>
+        <p class="card__meta">{{this.issuer}}{{#if this.date}} &middot; {{this.date}}{{/if}}</p>
       </div>
       {{/each}}
     </div>

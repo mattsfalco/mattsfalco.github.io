@@ -1,33 +1,24 @@
 {
   "_source": "https://www.linkedin.com/in/matthewstephenfalco",
   "_updated_at": "2026-03-07T00:00:00Z",
-  "_note": "This file is manually maintained. Update it when your LinkedIn profile changes.",
-  "headline": "Digital Transformation & Innovation Leader",
-  "summary": "Specialising in Digital Transformation and Innovation for companies looking to reinvent their digital presence and operations. Experienced in API development, e-commerce solutions, payment systems, and smart infrastructure.",
+  "_note": "This file is manually maintained. Update it when your LinkedIn profile changes. Fields marked [verify] should be confirmed.",
+  "headline": "",
+  "summary": "Specialising in Digital Transformation and Innovation for companies looking to reinvent their digital presence and operations.",
   "experience": [
     {
       "company": "Mitigram",
-      "title": "Senior Technology Lead",
+      "title": "",
       "location": "Stockholm, Sweden",
-      "start_date": "2021",
+      "start_date": "",
       "end_date": null,
       "current": true,
-      "description": "Leading digital transformation initiatives in the trade finance space."
-    },
-    {
-      "company": "Falco Consulting AB",
-      "title": "Owner & Consultant",
-      "location": "Stockholm, Sweden",
-      "start_date": "2018",
-      "end_date": null,
-      "current": true,
-      "description": "Independent consulting focused on digital transformation, API strategy, and e-commerce solutions."
+      "description": ""
     }
   ],
   "education": [
     {
       "school": "San Francisco State University",
-      "degree": "Business Administration",
+      "degree": "",
       "field": "Investments, Institutions & Decision Sciences",
       "start_date": "2012",
       "end_date": "2014"
@@ -37,35 +28,37 @@
     {
       "name": "Vibe Coding",
       "issuer": "LOVABLE",
-      "date": "2025"
+      "date": ""
     },
     {
       "name": "Google Adwords Fundamentals & Mobile",
       "issuer": "Google",
-      "date": "2016"
+      "date": "Dec 2016"
     },
     {
       "name": "Google Analytics Certified",
       "issuer": "Google",
-      "date": "2015"
+      "date": "Jul 2015"
     }
   ],
   "languages": [
-    { "language": "English", "proficiency": "Native" },
+    { "language": "English", "proficiency": "Native or bilingual" },
     { "language": "Swedish", "proficiency": "Professional working" }
   ],
   "volunteer": [
     {
       "organization": "Hundar Utan Hem",
-      "role": "Dog Rescue Volunteer",
-      "start_date": "2018",
-      "end_date": "2021",
-      "description": "Animal welfare work rescuing and rehoming shelter dogs."
+      "role": "Volunteer",
+      "start_date": "Dec 2018",
+      "end_date": "Mar 2021",
+      "description": "Rescuing abandoned and shelter dogs from Ireland and helping them find homes in Sweden."
     },
     {
-      "organization": "Alpha Epsilon Pi",
+      "organization": "Alpha Epsilon Pi Fraternity",
       "role": "Recruitment Chairman",
-      "description": "Led fraternity recruitment efforts."
+      "start_date": "Sep 2008",
+      "end_date": "Jun 2011",
+      "description": ""
     }
   ],
   "interests": [
@@ -76,25 +69,33 @@
     "3D Printing",
     "Guitar",
     "Singing",
-    "Home Automation",
-    "Smart Home / IoT"
+    "Home Automation"
   ],
   "projects": [
     {
-      "name": "E-commerce API Suite",
-      "description": "API suite for Buy Now Pay Later providers"
+      "name": "Smart Home Implementation",
+      "description": "Comprehensive local infrastructure featuring Unifi networking equipment, NIBE heat pump with AI-controlled heating, Ikea Zigbee smart home devices, 8 PoE IP cameras with Frigate/Blue Iris integration, Home Assistant on dedicated hardware with MQTT connectivity, and multiple backup systems including Wireguard VPN.",
+      "date": ""
     },
     {
-      "name": "Credable API Documentation",
-      "description": "Comprehensive API documentation platform"
+      "name": "E-commerce API Suite",
+      "description": "Designed an API for BNPL providers to manage risk in e-commerce B2B applications, requiring integration with legacy systems across multiple operating regions.",
+      "date": "Aug 2021"
+    },
+    {
+      "name": "Single-Invoice.co v3 Documentation",
+      "description": "Redesigned documentation emphasizing improved endpoint naming and comprehensive integration guidance.",
+      "date": "Jan 2021 - Aug 2021"
+    },
+    {
+      "name": "Credable API",
+      "description": "Built comprehensive API documentation and integration framework.",
+      "date": "Jan 2018 - Jan 2020"
     },
     {
       "name": "Olive U Naturally",
-      "description": "Shopify e-commerce website"
-    },
-    {
-      "name": "Smart Home Infrastructure",
-      "description": "Extensive local smart home implementation with IoT integration"
+      "description": "Developed custom Shopify site with product photography, Mailchimp email marketing integration, and Shopify Pay implementation.",
+      "date": "Apr 2016 - Jun 2017"
     }
   ]
 }
