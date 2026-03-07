@@ -1,0 +1,55 @@
+{
+  "hash": "a9c891e32fc3620247240a0291daf47e05c2cc2fae7707624c8d99a1aff659cf",
+  "display_name": "Matthew Stephen Falco",
+  "profile_url": "https://gravatar.com/matthewstephenfalco",
+  "avatar_url": "https://2.gravatar.com/avatar/a9c891e32fc3620247240a0291daf47e05c2cc2fae7707624c8d99a1aff659cf",
+  "avatar_alt_text": "",
+  "location": "Stockholm, Sweden",
+  "description": "",
+  "job_title": "Owner",
+  "company": "Falco Consulting AB",
+  "verified_accounts": [
+    {
+      "service_type": "facebook",
+      "service_label": "Facebook",
+      "service_icon": "https://gravatar.com/icons/facebook.svg",
+      "url": "https://www.facebook.com/app_scoped_user_id//10161556307116548",
+      "is_hidden": false
+    },
+    {
+      "service_type": "github",
+      "service_label": "GitHub",
+      "service_icon": "https://gravatar.com/icons/github.svg",
+      "url": "https://github.com/mattsfalco",
+      "is_hidden": false
+    },
+    {
+      "service_type": "linkedin",
+      "service_label": "LinkedIn",
+      "service_icon": "https://gravatar.com/icons/linkedin.svg",
+      "url": "https://www.linkedin.com/in/matthewstephenfalco",
+      "is_hidden": false
+    },
+    {
+      "service_type": "spotify",
+      "service_label": "Spotify",
+      "service_icon": "https://gravatar.com/icons/spotify.svg",
+      "url": "https://open.spotify.com/user/1227223457",
+      "is_hidden": false
+    }
+  ],
+  "pronunciation": "",
+  "pronouns": "",
+  "header_image": "url('https://1.gravatar.com/userimage/277310338/dc2bd9ad1b001c6c658d120c89d7b5c3?size=1024') no-repeat 50% 20% / 100%",
+  "background_color": "#e3eafc",
+  "payments": {
+    "links": [
+      {
+        "label": "PayPal.me",
+        "url": "https://www.paypal.com/paypalme/mattsfalco"
+      }
+    ],
+    "crypto_wallets": []
+  },
+  "_fetched_at": "2026-03-07T00:00:00Z"
+}
