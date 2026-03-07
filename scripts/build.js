@@ -23,6 +23,8 @@ function loadData() {
 function buildContext(data) {
   const g = data.gravatar || {};
   const l = data.linkedin || {};
+  const gh = data.github || {};
+  const sp = data.spotify || {};
 
   return {
     name: g.display_name || 'Matthew Falco',
@@ -45,6 +47,14 @@ function buildContext(data) {
     projects: l.projects || [],
     featured: l.featured || [],
     payments: g.payments || { links: [], crypto_wallets: [] },
+    // GitHub
+    github_repos: gh.repos || [],
+    github_username: gh.username || '',
+    github_url: gh.url || '',
+    // Spotify
+    spotify_top_tracks: sp.top_tracks || [],
+    spotify_top_artists: sp.top_artists || [],
+    spotify_recently_played: sp.recently_played || [],
     year: new Date().getFullYear(),
     built_at: new Date().toISOString(),
   };
