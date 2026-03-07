@@ -29,20 +29,3 @@
     </div>
   </div>
 </section>
-
-<!-- Projects -->
-{{#if projects}}
-<section class="section">
-  <div class="container">
-    <h2 class="section__title animate">Side Projects</h2>
-    <div class="grid grid--2">
-      {{#each projects}}
-      <div class="glass-card animate">
-        <h3 class="card__title">{{this.name}}</h3>
-        <p class="card__desc">{{this.description}}</p>
-      </div>
-      {{/each}}
-    </div>
-  </div>
-</section>
-{{/if}}
