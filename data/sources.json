@@ -21,6 +21,25 @@
       "output": "data/linkedin.json",
       "schedule": "daily",
       "_note": "Uses LinkedIn DMA Data Portability API (EU/EEA members). Set LINKEDIN_ACCESS_TOKEN secret. Falls back to manual if no token."
+    },
+    {
+      "name": "github",
+      "type": "api",
+      "fetcher": "github",
+      "config": {
+        "username": "mattsfalco"
+      },
+      "output": "data/github.json",
+      "schedule": "daily"
+    },
+    {
+      "name": "spotify",
+      "type": "api",
+      "fetcher": "spotify",
+      "config": {},
+      "output": "data/spotify.json",
+      "schedule": "daily",
+      "_note": "Requires SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET, SPOTIFY_REFRESH_TOKEN secrets."
     }
   ]
 }

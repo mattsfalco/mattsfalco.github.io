@@ -44,3 +44,28 @@
   </div>
 </section>
 {{/if}}
+
+<!-- GitHub Repos -->
+{{#if (hasItems github_repos)}}
+<section class="section">
+  <div class="container">
+    <h2 class="section__title animate">
+      <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" style="vertical-align: middle; margin-right: 8px"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+      Open Source
+    </h2>
+    <div class="grid grid--2">
+      {{#each github_repos}}
+      <a href="{{{this.url}}}" target="_blank" rel="noopener noreferrer" class="glass-card glass-card--link animate">
+        <h3 class="card__title card__title--sm">{{this.name}}</h3>
+        {{#if this.description}}<p class="card__desc">{{this.description}}</p>{{/if}}
+        <div class="repo-meta">
+          {{#if this.language}}<span class="repo-meta__lang"><span class="repo-meta__dot"></span>{{this.language}}</span>{{/if}}
+          {{#if this.stars}}<span class="repo-meta__stat"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"/></svg> {{this.stars}}</span>{{/if}}
+          {{#if this.forks}}<span class="repo-meta__stat"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"/></svg> {{this.forks}}</span>{{/if}}
+        </div>
+      </a>
+      {{/each}}
+    </div>
+  </div>
+</section>
+{{/if}}
