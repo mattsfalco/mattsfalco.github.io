@@ -21,7 +21,6 @@
       "output": "data/linkedin.json",
       "schedule": "daily",
       "_note": "Uses LinkedIn DMA Data Portability API (EU/EEA members). Set LINKEDIN_ACCESS_TOKEN secret. Falls back to manual if no token."
-    }
     },
     {
       "name": "github",
