@@ -7,29 +7,11 @@
   "experience": [
     {
       "company": "Mitigram",
-      "title": "Product Owner",
-      "location": "Stockholm, Sweden",
-      "start_date": "Feb 2025",
-      "end_date": "Feb 2026",
-      "current": false,
-      "description": "Creation of a new innovation platform to run experiments to solve common problems."
-    },
-    {
-      "company": "Bright Energy AB",
-      "title": "API Specialist",
-      "location": "Stockholm, Sweden",
-      "start_date": "Jun 2024",
-      "end_date": "Dec 2024",
-      "current": false,
-      "description": "Development, testing and deployment of the Bright Energy Developer Hub."
-    },
-    {
-      "company": "Allianz Trade",
       "title": "",
-      "location": "",
+      "location": "Stockholm, Sweden",
       "start_date": "",
-      "end_date": "",
-      "current": false,
+      "end_date": null,
+      "current": true,
       "description": ""
     }
   ],
