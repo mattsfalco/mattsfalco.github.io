@@ -469,6 +469,14 @@ img { max-width: 100%; display: block; }
   line-height: 1.6;
 }
 
+.timeline__item--hidden {
+  display: none;
+}
+
+.timeline--expanded .timeline__item--hidden {
+  display: block;
+}
+
 /* --- Tags --- */
 .tags {
   display: flex;
