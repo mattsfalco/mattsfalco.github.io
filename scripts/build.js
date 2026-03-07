@@ -41,6 +41,7 @@ function buildContext(data) {
     languages: l.languages || [],
     volunteer: l.volunteer || [],
     interests: l.interests || [],
+    skills: l.skills || [],
     projects: l.projects || [],
     payments: g.payments || { links: [], crypto_wallets: [] },
     year: new Date().getFullYear(),
