@@ -37,6 +37,26 @@
         </div>
         {{/if}}
         {{#if this.description}}<p class="timeline__desc">{{this.description}}</p>{{/if}}
+        {{#if (hasItems this.media)}}
+        <div class="media-strip">
+          {{#each this.media}}
+          <a href="{{{this.url}}}" target="_blank" rel="noopener noreferrer" class="media-chip">
+            {{#if this.image}}
+            <img src="{{{this.image}}}" alt="{{this.title}}" class="media-chip__img" loading="lazy">
+            {{else}}
+            <span class="media-chip__icon">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101"/><path d="M10.172 13.828a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>
+            </span>
+            {{/if}}
+            <span class="media-chip__text">
+              <span class="media-chip__title">{{this.title}}</span>
+              <span class="media-chip__domain">{{this.domain}}</span>
+            </span>
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" class="media-chip__arrow"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+          </a>
+          {{/each}}
+        </div>
+        {{/if}}
       </div>
       {{/each}}
     </div>
@@ -71,7 +91,7 @@
     <div class="grid grid--3">
       {{#each certifications}}
       <div class="glass-card glass-card--sm animate">
-        <h3 class="card__title card__title--sm">{{this.name}}</h3>
+        <h3 class="card__title card__title--sm">{{#if this.url}}<a href="{{{this.url}}}" target="_blank" rel="noopener noreferrer">{{this.name}} <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" style="display:inline;vertical-align:middle;margin-left:3px"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg></a>{{else}}{{this.name}}{{/if}}</h3>
         <p class="card__meta">{{this.issuer}}{{#if this.date}} &middot; {{this.date}}{{/if}}</p>
       </div>
       {{/each}}
@@ -119,7 +139,7 @@
     <div class="grid grid--2">
       {{#each volunteer}}
       <div class="glass-card animate">
-        <h3 class="card__title">{{this.organization}}</h3>
+        <h3 class="card__title">{{#if this.url}}<a href="{{{this.url}}}" target="_blank" rel="noopener noreferrer">{{this.organization}} <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" style="display:inline;vertical-align:middle;margin-left:4px"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg></a>{{else}}{{this.organization}}{{/if}}</h3>
         <p class="card__subtitle">{{this.role}}</p>
         {{#if this.description}}<p class="card__desc">{{this.description}}</p>{{/if}}
         {{#if this.start_date}}<span class="card__meta">{{this.start_date}} &mdash; {{this.end_date}}</span>{{/if}}

@@ -36,6 +36,41 @@
 </section>
 {{/if}}
 
+<!-- Featured -->
+{{#if featured}}
+<section class="section">
+  <div class="container">
+    <h2 class="section__title animate">Featured</h2>
+    <div class="featured-scroll">
+      {{#each featured}}
+      <a href="{{{this.url}}}" target="_blank" rel="noopener noreferrer" class="link-card animate">
+        {{#if this.image}}
+        <div class="link-card__image">
+          <img src="{{{this.image}}}" alt="{{this.title}}" loading="lazy">
+        </div>
+        {{else}}
+        <div class="link-card__image link-card__image--placeholder">
+          <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101"/><path d="M10.172 13.828a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>
+        </div>
+        {{/if}}
+        <div class="link-card__body">
+          <h3 class="link-card__title">{{this.title}}</h3>
+          {{#if this.description}}<p class="link-card__desc">{{this.description}}</p>{{/if}}
+          <span class="link-card__domain">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+            {{this.domain}}
+          </span>
+        </div>
+        <div class="link-card__arrow">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+        </div>
+      </a>
+      {{/each}}
+    </div>
+  </div>
+</section>
+{{/if}}
+
 <!-- Experience -->
 {{#if experience}}
 <section class="section">
@@ -56,6 +91,26 @@
         </div>
         {{/if}}
         {{#if this.description}}<p class="timeline__desc">{{this.description}}</p>{{/if}}
+        {{#if (hasItems this.media)}}
+        <div class="media-strip">
+          {{#each this.media}}
+          <a href="{{{this.url}}}" target="_blank" rel="noopener noreferrer" class="media-chip">
+            {{#if this.image}}
+            <img src="{{{this.image}}}" alt="{{this.title}}" class="media-chip__img" loading="lazy">
+            {{else}}
+            <span class="media-chip__icon">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101"/><path d="M10.172 13.828a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>
+            </span>
+            {{/if}}
+            <span class="media-chip__text">
+              <span class="media-chip__title">{{this.title}}</span>
+              <span class="media-chip__domain">{{this.domain}}</span>
+            </span>
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" class="media-chip__arrow"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+          </a>
+          {{/each}}
+        </div>
+        {{/if}}
       </div>
       {{/each}}
     </div>
@@ -79,6 +134,26 @@
         <h3 class="card__title">{{this.name}}</h3>
         {{#if this.date}}<span class="card__meta">{{this.date}}</span>{{/if}}
         <p class="card__desc">{{this.description}}</p>
+        {{#if (hasItems this.media)}}
+        <div class="media-strip media-strip--card">
+          {{#each this.media}}
+          <a href="{{{this.url}}}" target="_blank" rel="noopener noreferrer" class="media-chip">
+            {{#if this.image}}
+            <img src="{{{this.image}}}" alt="{{this.title}}" class="media-chip__img" loading="lazy">
+            {{else}}
+            <span class="media-chip__icon">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101"/><path d="M10.172 13.828a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>
+            </span>
+            {{/if}}
+            <span class="media-chip__text">
+              <span class="media-chip__title">{{this.title}}</span>
+              <span class="media-chip__domain">{{this.domain}}</span>
+            </span>
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" class="media-chip__arrow"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+          </a>
+          {{/each}}
+        </div>
+        {{/if}}
       </div>
       {{/each}}
     </div>

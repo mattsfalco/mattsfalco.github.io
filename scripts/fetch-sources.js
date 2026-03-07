@@ -40,6 +40,22 @@ async function main() {
     }
   }
 
+  // Enrich LinkedIn media with Open Graph metadata
+  const linkedinPath = path.join(ROOT, 'data', 'linkedin.json');
+  if (fs.existsSync(linkedinPath)) {
+    console.log('\n--- Open Graph Enrichment ---');
+    try {
+      const { enrichMediaItems } = require('./fetchers/opengraph.js');
+      const linkedinData = JSON.parse(fs.readFileSync(linkedinPath, 'utf-8'));
+      const enriched = await enrichMediaItems(linkedinData);
+      const enrichedContent = JSON.stringify(enriched, null, 2) + '\n';
+      fs.writeFileSync(linkedinPath, enrichedContent);
+      console.log('  OG enrichment complete\n');
+    } catch (err) {
+      console.error(`  OG enrichment error: ${err.message}\n`);
+    }
+  }
+
   console.log('Done fetching sources.');
 }
 
