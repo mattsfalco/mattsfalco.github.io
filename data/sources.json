@@ -13,13 +13,14 @@
     },
     {
       "name": "linkedin",
-      "type": "manual",
+      "type": "api",
       "fetcher": "linkedin",
       "config": {
         "profile_url": "https://www.linkedin.com/in/matthewstephenfalco"
       },
       "output": "data/linkedin.json",
-      "schedule": "manual"
+      "schedule": "daily",
+      "_note": "Uses LinkedIn DMA Data Portability API (EU/EEA members). Set LINKEDIN_ACCESS_TOKEN secret. Falls back to manual if no token."
     }
   ]
 }

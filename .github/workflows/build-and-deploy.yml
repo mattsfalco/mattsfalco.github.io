@@ -39,6 +39,7 @@ jobs:
       - name: Fetch data sources
         env:
           GRAVATAR_API_KEY: ${{ secrets.GRAVATAR_API_KEY }}
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
         run: node scripts/fetch-sources.js
 
       - name: Check for data changes
