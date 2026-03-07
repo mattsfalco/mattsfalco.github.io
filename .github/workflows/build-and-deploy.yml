@@ -2,7 +2,7 @@ name: Build & Deploy
 
 on:
   push:
-    branches: [master]
+    branches: [master, 'claude/**']
   schedule:
     # Run daily at midnight UTC to check for Gravatar profile changes
     - cron: '0 0 * * *'
