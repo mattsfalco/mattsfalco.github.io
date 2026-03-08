@@ -1,277 +1,341 @@
 {
   "_source": "https://www.linkedin.com/in/matthewstephenfalco",
-  "_updated_at": "2026-03-07T00:00:00Z",
-  "_note": "This file is manually maintained. Update it when your LinkedIn profile changes. Fields marked [verify] should be confirmed.",
-  "headline": "",
-  "summary": "Specialising in Digital Transformation and Innovation for companies looking to reinvent their digital presence and operations.",
-  "featured": [
-    {
-      "type": "link",
-      "title": "Bright Energy Developer Hub",
-      "description": "White-label developer portal for utility clients with OAS 3.1 API definitions, interactive documentation, and self-service testing.",
-      "url": "https://developer.brightenergy.com",
-      "image": "",
-      "domain": "developer.brightenergy.com"
-    },
-    {
-      "type": "link",
-      "title": "Mitigram - Trade Finance Platform",
-      "description": "Innovation platform enabling mid-sized exporters to run experiments and prototype product ideas for trade financing.",
-      "url": "https://www.mitigram.com",
-      "image": "",
-      "domain": "mitigram.com"
-    },
-    {
-      "type": "link",
-      "title": "Home Assistant Smart Home",
-      "description": "Comprehensive local smart home infrastructure with Unifi networking, NIBE heat pump, Zigbee devices, PoE cameras, and MQTT automation.",
-      "url": "https://www.home-assistant.io",
-      "image": "",
-      "domain": "home-assistant.io"
-    },
-    {
-      "type": "link",
-      "title": "Allianz Trade E-commerce API",
-      "description": "API suite enabling e-commerce clients to insure Buy Now Pay Later schemes with developer guides and Postman collections.",
-      "url": "https://developer.allianz-trade.com",
-      "image": "",
-      "domain": "developer.allianz-trade.com"
-    }
-  ],
+  "_updated_at": "2026-03-08T01:47:19.443Z",
+  "_note": "Auto-fetched via LinkedIn DMA Data Portability API. Manual edits to fields not covered by the API will be preserved.",
+  "headline": "Technical Product Manager with 12+ years in Fintech, Insurtech",
+  "summary": "Specialising in Digital Transformation and Innovation for companies looking to reinvent their product line or business focus.  I am a passionate entrepreneur with experience in building B2B products, internal tools, API's and brand creation. Consulting for fintech and e-commerce startups, I am able to utilise my technical and operational expertise to quickly deliver on projects requiring a wide range of skillsets. When a company decides to embark on an innovation strategy I serve as needed from ideation to scale, acting as Product Owner or Operations Lead while recruiting new members as the strategy unfolds.  Usually reporting directly to a board of management or steering committee, I deliver easy to digest executive summaries to aid in the review process, from organising and gathering client requirements to explaining market trends and retrospectives on what has been successful during development, what has failed, and what opportunities lay ahead.  I have extensive experience in API design, development, documentation and testing for both large corporate and startup use cases. For startups the focus is on speed of software development, incorporating off the shelf solutions and versioning to move quick and test product variations often with a few large customers to start. Large corporations require standardisation through API Governance and refined global naming structures that allow for API's to be clearly segmented based on the customer handling the integration. In all cases clear to understand documentation is crucial to both commercialise and integrate the API efficiently. I prefer to be included/responsible for all aspects of the API to deliver the best result for the end-user, our customers development team.  I spend my free time enhancing my technical skills through small tech projects such as home automation and learning courses from AWS or Google which allows me to better communicate and relate to developers and their needs.",
   "experience": [
     {
       "company": "Mitigram",
       "title": "Product Owner",
-      "location": "Stockholm, Sweden",
+      "description": "- Creation of a new innovation platform to run experiments to solve common problems faced by mid-sized exporters. - - Prototyping real product ideas using Figma Make and Lovable for user testing and efficient knowledge transfer of business logic to development teams - - Evaluation and testing of partner API's in Postman for writing detailed work tickets in JIRA saving discovery time for developers - Migration of 3 documentation platforms to a single Confluence installation for the product and tech departments. - Improved the integration of trade financing documents in the workflow app Manager via a new Payment Advice field matching experience for uploaded documents. - Automated release notes using Jira automation scripting for internal and external audiences.",
+      "location": "Stockholm",
       "start_date": "Feb 2025",
-      "end_date": null,
-      "current": true,
-      "description": "Created innovation platform for mid-sized exporters to run experiments. Prototyped product ideas using Figma, Make, and Lovable for user testing. Evaluated partner APIs in Postman and created JIRA tickets. Migrated three documentation platforms to Confluence. Enhanced trade financing document integration workflow and automated release notes using Jira scripting.",
-      "media": [
-        {
-          "type": "link",
-          "title": "Mitigram - Trade Finance Platform",
-          "description": "Digital platform streamlining trade finance operations for mid-sized exporters worldwide.",
-          "url": "https://www.mitigram.com",
-          "image": "",
-          "domain": "mitigram.com"
-        }
-      ]
+      "end_date": "Feb 2026",
+      "current": false
     },
     {
       "company": "Bright Energy AB",
       "title": "API Specialist",
-      "location": "Stockholm, Sweden",
+      "description": "Development, testing and deployment of the Bright Energy Developer Hub for white-label utility clients, allowing their end customers to login and access their white-label mobile apps.  - Created a product road map after an efficient discovery process by reviewing existing code base, documentation and client developer experience. - Created an continuous development workflow for Bright Energy developers/product owners maintaining the developer hub and all underlying documentation sources. - Created custom, OAS 3.1 definitions for both Bright-Kit and Bright-API focused on proper naming schema's, inheritance, polymorphism and stored in a team accessible Github repo for platform independent collaboration. All elements of the Open API definition were re-worked to prepare for international sales. - Quickly deployed an improved customer developer experience using Readme.com SaaS which sourced content from a linked git repository for tiered permission control of content. - Created a public Postman Team Profile and Workspace with collections sourced from the same linked git repository. This enabled self-service testing of utility clients API's removing the dependency of completing the white-label deployment to test.",
+      "location": "Stockholm, Stockholm County, Sweden",
       "start_date": "Jun 2024",
       "end_date": "Dec 2024",
-      "current": false,
-      "description": "Developed and deployed Bright Energy Developer Hub for white-label utility clients. Created product roadmap after discovery process. Established continuous development workflow. Built custom OAS 3.1 definitions with proper naming schemas and polymorphism stored in Github. Deployed improved developer experience using Readme.com SaaS. Created public Postman Team Profile and Workspace with self-service testing capabilities.",
-      "media": [
-        {
-          "type": "link",
-          "title": "Bright Energy Developer Hub",
-          "description": "Developer portal with OAS 3.1 API documentation and self-service testing for white-label utility clients.",
-          "url": "https://developer.brightenergy.com",
-          "image": "",
-          "domain": "developer.brightenergy.com"
-        },
-        {
-          "type": "link",
-          "title": "Readme.com - Developer Hub Platform",
-          "description": "Beautiful, personalized, interactive developer hubs used to deploy the Bright Energy documentation.",
-          "url": "https://readme.com",
-          "image": "",
-          "domain": "readme.com"
-        }
-      ]
+      "current": false
     },
     {
       "company": "Allianz Trade",
-      "title": "Product Owner — E-commerce API",
-      "location": "Stockholm, Sweden",
+      "title": "Product Owner",
+      "description": "Development, testing and deployment of the E-commerce API suite for BNPL clients.  - Built an entirely new set of API's to enable e-commerce clients to be insured for Buy Now Pay Later payment schemes. - Relaunched an improved version of our API Documentation portal with in-depth developer guides to simplify the integration process. - Created an accompanying Postman Collection and Mock Server to enable developers to do integration testing of their test and production accounts. - Helped employees to learn about the project through a comprehensive internal project documentation in Confluence - Coordinated multiple scrum teams from different departments using Jira to deliver new product features dependent on upstream services  Development, testing and deployment of Single-Invoice.co API version 3 for invoice insurance customers.  - Simplified the integration flowchart for developers by redesigning the API to be a linear flow with unique end states. - Reduced time-to-live by creating a streamlined on-boarding experience for developers with in-depth guides from Getting Started to Production launch.",
+      "location": "Stockholm, Stockholm County, Sweden",
       "start_date": "Jan 2022",
       "end_date": "Jun 2024",
-      "current": false,
-      "description": "Built new API suite enabling e-commerce clients to insure Buy Now Pay Later schemes. Relaunched API documentation portal with developer guides. Created Postman Collection and Mock Server for integration testing. Coordinated multiple scrum teams using Jira. Redesigned Single-Invoice.co API version 3 with linear workflow. Streamlined developer onboarding experience.",
-      "media": [
-        {
-          "type": "link",
-          "title": "Allianz Trade E-commerce API",
-          "description": "API suite for insuring Buy Now Pay Later schemes in e-commerce applications.",
-          "url": "https://developer.allianz-trade.com",
-          "image": "",
-          "domain": "developer.allianz-trade.com"
-        }
-      ]
+      "current": false
     },
     {
       "company": "Allianz Trade",
-      "title": "Product Owner — Tradelock",
-      "location": "Stockholm, Sweden",
+      "title": "Product Owner",
+      "description": "Tradelock Invoice Insurance web app for SME's in the UK.  - Brought to market a new method for SME's to buy credit insurance for their company via connecting their accounting system and selecting invoices or buyers to insure. - Continuously added new accounting systems to allow new SME's access to purchase insurance. - Built new features and A/B tested different pricing options based on User Interviews of existing customers. This improved our on-boarding success rate and conversion rate inside the web app. - Solidified our position in the market by attending the largest insurance and accounting conventions in the UK. - Increased distribution of our product through new partnerships which could never been utilised in the past by the company without our product. - Proved that a machine learning model can decrease risk significantly with only a small lost in sales. Created a tuned supervised machine learning model with a data scientist that connected directly to our database and trained on anonymised accounting data, historical purchasing data and insurance events. - Improved status reporting and transparency towards our steering committee by creating automated reporting dashboards using Google Data Studio. We never needed to create a sales/marketing report and members could review the live dashboard anytime. - Successfully prepared for and passed a penetration test with no major security or product issues discovered.",
+      "location": "Stockholm, Stockholm County, Sweden",
       "start_date": "Feb 2020",
       "end_date": "Dec 2021",
-      "current": false,
-      "description": "Brought Tradelock Invoice Insurance web app to market for UK SMEs. Connected accounting systems for invoice/buyer insurance selection. A/B tested pricing options based on user interviews. Attended major insurance and accounting conventions. Built partnerships expanding distribution. Developed supervised machine learning model with data scientist to decrease risk. Created automated reporting dashboards using Google Data Studio. Passed penetration testing successfully.",
-      "media": []
+      "current": false
     },
     {
       "company": "Allianz Trade",
-      "title": "Head of Operations — Credable",
+      "title": "Head Of Operations",
+      "description": "As a founding member of the Credable team these are my main duties as Head of Operations:  - Product Owner of the Credable product suite working directly with developers and designers to provide an innovative digital credit insurance experience for SME's. - API and Developer documentation using Readme platform with live demo capabilities - - Web App - User focused insurance portal with BankID login (Sweden) identification and signing. - - Insure API - Scrive signing of insurance policy PDF's and delivery of credit insurance per invoice. - Evaluation, vetting, testing, validation and management of service providers and API's supplementing the Credable experience ranging from up to the minute currency exchange rates, multiple payment gateways serving region specific payment methods, infrastructure dependent micro-services, all 3rd party services serving marketing, design, communication and delivery  - Advisor for development of company group wide services to supplement our digital product suite such as KYC, company data acquisition, e-signing and payments - Product Management and advising for product owners in other internal innovation projects within the group - Enabling and curating partnerships with financial and data companies such as e-invoicing, accounting systems, factoring and invoice discounting platforms, banks and collection agencies who all play a role within company supply chains - Supporting legal and compliance departments to deliver new commercial contracts and insurance policies to match our product suite within the EU",
       "location": "Stockholm, Sweden",
       "start_date": "Jan 2018",
       "end_date": "Jan 2020",
-      "current": false,
-      "description": "Founding member as Head of Operations managing Credable product suite. Served as Product Owner working with developers and designers. Developed API and developer documentation using Readme platform. Managed web app with BankID login and Insure API with Scrive signing. Evaluated and managed service providers (payment gateways, currency exchange, micro-services). Advised on company-wide services (KYC, e-signing, payments). Curated partnerships with financial/data companies. Supported legal and compliance departments.",
-      "media": [
-        {
-          "type": "link",
-          "title": "Credable API Documentation",
-          "description": "Comprehensive API docs and integration framework for credit insurance services with BankID and e-signing.",
-          "url": "https://credable.readme.io",
-          "image": "",
-          "domain": "credable.readme.io"
-        }
-      ]
+      "current": false
     },
     {
       "company": "Mobiento / Deloitte Digital",
       "title": "Technical Project Manager",
+      "description": "-  Project Management for small to medium sized agile teams working in digital products for enterprise level clients. Main project was Credable for Allianz Trade. - Stakeholder management across multiple organisation levels. - Direct support to developers, designers and strategists to minimise roadblocks to promote a delivery focused workflow.",
       "location": "Stockholm, Sweden",
       "start_date": "Jan 2017",
       "end_date": "Jan 2018",
-      "current": false,
-      "description": "Managed small to medium agile teams for enterprise digital products. Primary project was Credable for Allianz Trade. Handled stakeholder management across multiple organizational levels. Provided direct support to developers, designers, and strategists to minimize roadblocks.",
-      "media": []
+      "current": false
     },
     {
       "company": "Veroveli",
       "title": "Web Developer",
+      "description": "- Development of Custom Static Websites, Shopify E-commerce sites, WordPress sites, AMP-only sites.   Platforms: Nop Commerce, Shopify, WordPress. Web Apps: Project 1 - Analytics Dashboard connected via Google Analytics API with graphs drawn using Google Charts API. Backend: PHP 7.0, CSS: Custom Bootstrap template hosted on a CDN. Using HTML 5, JavaScript. Hosted on Azure. Features: Basic Login, Zendesk integration, session control, interactive graphs, custom date ranges, monthly reports.",
       "location": "",
       "start_date": "Dec 2015",
       "end_date": "Jan 2017",
-      "current": false,
-      "description": "Developed custom static websites, Shopify e-commerce sites, WordPress sites, and AMP-only sites. Built analytics dashboard connected to Google Analytics API with Google Charts. Backend in PHP 7.0 with custom Bootstrap template on Azure CDN. Implemented basic login, Zendesk integration, session control, interactive graphs, and monthly reports.",
-      "media": []
+      "current": false
     },
     {
       "company": "Just Value",
       "title": "SEO Specialist",
+      "description": "Adwords and Analytics Certified in Mobile and Search.  Managing Adwords campaigns for several international clients after installing custom Google Tag Manager containers with custom tags based on each clients business goals. Providing quality keyword tracking and link reporting through the LinkBird API and LinkBird reporting tool. Setting up Sitemaps using the Semantic keyword method to best attract organic search and lower the cost of paid search to client websites.",
       "location": "",
       "start_date": "Dec 2015",
       "end_date": "Jan 2017",
-      "current": false,
-      "description": "Managed Google Adwords campaigns for international clients. Installed custom Google Tag Manager containers with custom tags. Provided keyword tracking and link reporting via LinkBird API. Set up sitemaps using semantic keyword method to attract organic search.",
-      "media": []
+      "current": false
     },
     {
       "company": "SelfieJobs",
       "title": "COO",
+      "description": "Operations management, international expansion and fundraising.  •\tBridge Funding Analysis and proposal created to present to investors during pitch meetings and funding activities. Investor pitch deck, market research analysis  •\tTeam operations management and system controls put in place designed to increase security while not limited productivity and collaboration.  •\tManaging international expansion to different EU countries. Incorporating full language support into iOS and Android applications. Signing on PR agencies and brand ambassadors to promote and present our platform to the target B2C market.  •\tWeb Development in HTML5, CSS •\tMobile marketing campaigns using Google Adwords and Google Analytics remarketing techniques to drive app downloads, app usage and increase customer lifetime value. ",
       "location": "Stockholm, Sweden",
       "start_date": "May 2015",
       "end_date": "Dec 2015",
-      "current": false,
-      "description": "Managed operations, international expansion, and fundraising. Created bridge funding analysis for investor pitches. Implemented team operations management and security controls. Managed EU expansion with full language support for iOS/Android applications. Signed PR agencies and brand ambassadors. Developed HTML5/CSS web content and mobile marketing campaigns using Google Adwords and Analytics.",
-      "media": []
+      "current": false
     },
     {
       "company": "Mondido",
       "title": "Project Manager",
+      "description": "Project requirements, design, and production of payment products. Managing integrations with new partners, payment types and supplementary gateway services.  •\tPayment product design using HTML & CSS and production prototyping. Incorporating visual responses (color change, notifications, focusing) per event to guide customers through the payment flow. Managing the implementation of smart layers built underneath the interface to encourage users to provide valid input.  •\tAgile Project Management to incorporate customer feature requests with production goals, plan epics, summarize technical documentation for development and adjust the company roadmap while maintaining a specific timeline not to inhibit marketing and PR efforts. •\tIntegration and partner liaison to negotiate working contracts to establish development ready environment for the testing and implementation of payment orientated services.",
       "location": "",
       "start_date": "Nov 2014",
       "end_date": "Mar 2015",
-      "current": false,
-      "description": "Managed payment product requirements, design, and production. Managed partner integrations and new payment types. Designed payment products using HTML & CSS with visual feedback elements. Managed agile project management incorporating customer requests. Negotiated partner contracts for development environments.",
-      "media": []
+      "current": false
     },
     {
       "company": "SlidePay",
       "title": "Customer Development Executive",
+      "description": "•\tClient acquisition and account management that produced major growth within a startup. Customer base grew from 10 to 200 clients under 8 months.  •\tVertical marketing analysis and reporting for startup of nine people.  Reports crucial to pivoting choices and product production pipeline. •\tAgile Project Management using Pivotal Tracker working directly with developers to prioritize customer requests and lobby for feature ranking in product backlog. •\tPromotion of product awareness within target markets by authoring blog articles on company website.",
       "location": "Mountain View, CA",
       "start_date": "Aug 2012",
       "end_date": "Sep 2013",
-      "current": false,
-      "description": "Grew customer base from 10 to 200 clients in 8 months. Conducted vertical marketing analysis and reporting. Managed agile project management using Pivotal Tracker with developers. Authored blog articles promoting product awareness.",
-      "media": []
+      "current": false
     },
     {
       "company": "Stephen Vincent Wines Inc.",
       "title": "Division Manager",
+      "description": "Sales management of two labels for the company's largest account. Overseeing business analytics and sales personnel.   •\tTrained, mentored and managed 10 Sales Representatives to operate a B2C model of sales in a highly competitive wine industry. •\tConsulted directly with winery CFO on market-based decisions to promote accelerated growth amongst multiple competitors with supplementary products using trend analysis. •\tManaged major sales accounts to increase product visibility, expand sales region, provide on-site sales training and advise on marketing strategies based on consumer sales data. •\tTripled Sales Revenue within 20 months and developed integral industry contacts to ensure better supply chain management.",
       "location": "Petaluma, CA",
       "start_date": "Oct 2010",
       "end_date": "Jan 2012",
-      "current": false,
-      "description": "Managed sales of two wine labels for largest company account. Trained and managed 10 sales representatives in B2C model. Consulted with CFO on market-based decisions. Managed major sales accounts and provided on-site training. Tripled sales revenue within 20 months.",
-      "media": []
+      "current": false
     },
     {
       "company": "Osher Marin Jewish Community Center",
       "title": "Camp Unit Head",
-      "location": "San Rafael, CA",
+      "description": "Age Group Coordinator for Jewish activities and field trips. •\tLed pre-programed adventure trips for ages ranging 6-16.  •\tLed and taught kids through various sports and arts & craft activities.",
+      "location": "Osher Marin JCC",
       "start_date": "Jun 2009",
       "end_date": "Aug 2011",
-      "current": false,
-      "description": "Coordinated age groups for Jewish activities and field trips. Led pre-programmed adventure trips for ages 6-16. Taught sports and arts & crafts activities.",
-      "media": []
+      "current": false
     },
     {
       "company": "Mike Barnard Construction Co.",
       "title": "Apprentice Carpenter",
+      "description": "Construction of live/work housing complexes and residential high end renovation. Woodworking, foundation, metal-stud framing, Arc, TIG & MIG welding.",
       "location": "",
       "start_date": "May 2006",
       "end_date": "Aug 2007",
-      "current": false,
-      "description": "Constructed live/work housing complexes and residential high-end renovation. Skills included woodworking, foundation, metal-stud framing, and welding (Arc, TIG & MIG).",
-      "media": []
+      "current": false
     }
   ],
   "education": [
     {
       "school": "San Francisco State University",
-      "degree": "",
-      "field": "Investments, Institutions & Decision Sciences",
+      "degree": "Bachelor of Business Administration (B.B.A.)",
+      "field": "Degree focuses on Investments, Institutions and I pursued additional study in Decision Sciences.",
       "start_date": "2012",
-      "end_date": "2014"
+      "end_date": "2014",
+      "activities": "Alpha Epsilon Pi, Hillel SFSU"
+    },
+    {
+      "school": "College of Marin",
+      "degree": "Sciences Education Cert.",
+      "field": "Chemistry and Physics",
+      "start_date": "2010",
+      "end_date": "2011",
+      "activities": ""
+    },
+    {
+      "school": "Cal Poly San Luis Obispo",
+      "degree": "",
+      "field": "Computer Engineering",
+      "start_date": "2007",
+      "end_date": "2008",
+      "activities": "Alpha Epsilon Pi"
     }
+  ],
+  "skills": [
+    "Management Style",
+    "Product Vision",
+    "Product Road Mapping",
+    "User Stories",
+    "User Story Mapping",
+    "Kanban",
+    "Agile Methodologies",
+    "Agile Project Management",
+    "Product Design",
+    "Product Development",
+    "Release Notes",
+    "Software Testing",
+    "Technical Writing",
+    "Artificial Intelligence (AI)",
+    "Home Assistant",
+    "Ubiquiti",
+    "Mqtt",
+    "Network Administration",
+    "ZigBee",
+    "Blue Iris",
+    "Physical Security",
+    "Interoperability",
+    "Kali Linux",
+    "Bank ID",
+    "Shopify",
+    "Web Development",
+    "Email Templating",
+    "Payments",
+    "Payment Gateway",
+    "Checkout",
+    "JavaScript",
+    "Technical Documentation",
+    "Google Data Studio",
+    "SQL",
+    "Postman Mock Server",
+    "Software Documentation",
+    "Content Creation",
+    "Flow Charts",
+    "API Design",
+    "API Testing",
+    "Readme.io",
+    "Swagger",
+    "API Documentation",
+    "API Integration Testing",
+    "Startups",
+    "A/B Testing",
+    "User Interviews",
+    "User Research",
+    "Machine Learning",
+    "Strategic Partnerships",
+    "Product Innovation",
+    "Operations Management",
+    "New Business Development",
+    "Postman API",
+    "Gitlab",
+    "Swagger API",
+    "Confluence",
+    "Jira",
+    "Sales",
+    "Start-ups",
+    "Marketing",
+    "Digital Strategy",
+    "Project Management",
+    "Sales Management",
+    "Entrepreneurship",
+    "Business Development",
+    "Strategic Planning",
+    "Marketing Communications",
+    "Social Media Marketing",
+    "Financial Analysis",
+    "CRM",
+    "Social Media",
+    "Event Planning",
+    "Customer Acquisition",
+    "Account Management",
+    "Event Management",
+    "Research",
+    "Banking",
+    "E-commerce",
+    "Search Engine Optimization (SEO)",
+    "PowerPoint",
+    "Microsoft Office",
+    "Facebook",
+    "HTML",
+    "CSS",
+    "Microsoft Excel",
+    "Salesforce.com",
+    "HTML5",
+    "Customer Service",
+    "Leadership",
+    "Cold Calling",
+    "Management",
+    "Time Management",
+    "Public Speaking",
+    "Team Leadership",
+    "Digital Transformation",
+    "Swedish",
+    "Social Networking",
+    "Morningstar Direct",
+    "Figma"
   ],
   "certifications": [
     {
-      "name": "Vibe Coding",
-      "issuer": "LOVABLE",
-      "date": "",
-      "url": "https://lovable.dev"
-    },
-    {
-      "name": "Google Adwords Fundamentals & Mobile",
+      "name": "Google Adwords Fundamentals, Mobile",
       "issuer": "Google",
       "date": "Dec 2016",
-      "url": ""
+      "url": "https://www.google.com/partners/?authuser=1#i_profile;idtf=106400639073756460360;"
     },
     {
       "name": "Google Analytics Certified",
       "issuer": "Google",
       "date": "Jul 2015",
+      "url": "https://www.google.com/partners/#i_profile;idtf=106400639073756460360;"
+    },
+    {
+      "name": "Vibe Coding",
+      "issuer": "LOVABLE",
+      "date": "",
       "url": ""
     }
   ],
   "languages": [
-    { "language": "English", "proficiency": "Native or bilingual" },
-    { "language": "Swedish", "proficiency": "Professional working" }
+    {
+      "language": "English",
+      "proficiency": "Native or bilingual proficiency"
+    },
+    {
+      "language": "Swedish",
+      "proficiency": "Professional working proficiency"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Credable API",
+      "description": "Welcome to the Credable API Documentation. You'll find comprehensive guides and documentation to help you start working with Credable® as quickly as possible.",
+      "date": "Jan 2018 - Jan 2020",
+      "url": ""
+    },
+    {
+      "name": "Single-Invoice.co v3 Documentation",
+      "description": "A redesigned version of our popular v2 with a focus on better endpoint naming and comprehensive integration guides.",
+      "date": "Jan 2021 - Aug 2021",
+      "url": ""
+    },
+    {
+      "name": "E-commerce API Suite",
+      "description": "Our team was tasked with creating an API for BNPL providers looking to offset their risk for E-commerce B2B applications. A primary requirement for this API was to be fully integrated into existing legacy systems to allow the deployment of this API in the majority of our operating regions.  This meant all upstream connected services needed to be altered for use with end clients where many of these systems were designed originally for internal use only. Collective requirements from existing and new system users were aggregated and all parties needed to approve of each change in order to progress through the project.  This API is private to view to clients only. An accompanied Postman collection + mock server is available to registered developers.",
+      "date": "Aug 2021",
+      "url": ""
+    },
+    {
+      "name": "Hosted Window Enhancements and Documentation",
+      "description": "My first project working for the payment company was improvement of the Hosted Window checkout. Working side by side with a single developer we rapidly tested different input field behaviours to provide the easiest data entry experience for the user. Following this release I was also tasked with improving the documentation for the feature.",
+      "date": "Nov 2014 - Feb 2015",
+      "url": ""
+    },
+    {
+      "name": "Olive U Naturally Shopify Website",
+      "description": "Product photography (Sofia) and Custom Shopify website (Matt).  Email marketing with Mailchimp and custom templates with an integration into the Shopify product line.  Initially we chose a website template which was then modified using the Liquid Syntax feature developed by Shopify. This allowed additional product details to be displayed and button functionality to be controlled based on values such as stock count or product color. CSS customisation and individual pages were edited/created to suit the needs of the client based on industry standards.  Implementation of the newly launched Shopify Pay along with custom email templates for checkout receipts and order fulfilment.",
+      "date": "Apr 2016 - Jun 2017",
+      "url": ""
+    },
+    {
+      "name": "Smart Home Implementation",
+      "description": "In order to broaden my knowledge of networking and IoT, I decided to invest heavily into a 100% local custom smart home infrastructure using the following principles:  - Local access and control for all systems - 3-2-1 Backup strategy - Parallel implementation/operation of security related systems - Hardwire first, wireless second  Networking Setup: - Unifi UDM Pro SE - Unifi Lite 16 PoE - Unifi Lite 8 PoE - Unifi Flex (2) - Unifi Flex Mini (5) - Fixed IP Fiber 1Gbps - Failover Backup 4G Connection - Wireguard VPN Server  Smart Heating: - NIBE F750 Air to Water Heat Pump - NibePi AI controlled heating curve and hot water over RS-485 serial to MODBUS - Uponor Zone Control  Smart Lighting and Shades: - Ikea Zigbee Hub (Channel 6) - 8 Ikea Smart Blinds - 15 Ikea Smart Bulbs - 3 Ikea Routers  Camera System: - 8 PoE powered IP camera for external observation - Unifi Protect for internal cameras - All cameras connected to Frigate, Blue Iris and Home Assistant directly and indirectly - Frigate 0.12 + TPU Coral running in Docker on Kali Linux - Blue Iris on Windows 11 dedicated machine with Code Project AI running on M1 mac for optimised Face and Person Detection  Home Assistant: - Running HassOs on dedicated SFF refurbished mini pc - Mqtt for connecting Frigate, NibePi etc... - AdGuard for custom DNS rewrites - Bitwarden local hosted password manager - Home Assistant SkyConnect with 6 routers and 20 end devices for door/window sensors combined with local-only Alarm system - Home Assistant Cloud access for Notifications when fiber outage occurs - iPhone shortcut notification when all access routes to Home Assistant no longer work (3 total) - HAN Port connection to electrical meter for real-time phase and voltage allows for overload protection when charging electric car - Customized charging scheduling with local OCPP control of charge box  Other Containers: - Obico Server for 3D printer AI failure webhook notifications - CUPS - Searxng for local search engine",
+      "date": "",
+      "url": ""
+    }
   ],
   "volunteer": [
     {
-      "organization": "Hundar Utan Hem",
+      "organization": "",
       "role": "Volunteer",
+      "cause": "animalRights",
+      "description": "Rescuing abandoned and shelter dogs from Ireland and helping them find homes in Sweden. See https://hundarutanhem.se/",
       "start_date": "Dec 2018",
-      "end_date": "Mar 2021",
-      "description": "Rescuing abandoned and shelter dogs from Ireland and helping them find homes in Sweden.",
-      "url": "https://www.hundarutanhem.se"
-    },
-    {
-      "organization": "Alpha Epsilon Pi Fraternity",
-      "role": "Recruitment Chairman",
-      "start_date": "Sep 2008",
-      "end_date": "Jun 2011",
-      "description": ""
+      "end_date": "Mar 2021"
     }
   ],
   "interests": [
@@ -283,72 +347,5 @@
     "Guitar",
     "Singing",
     "Home Automation"
-  ],
-  "projects": [
-    {
-      "name": "Smart Home Implementation",
-      "description": "Comprehensive local infrastructure featuring Unifi networking equipment, NIBE heat pump with AI-controlled heating, Ikea Zigbee smart home devices, 8 PoE IP cameras with Frigate/Blue Iris integration, Home Assistant on dedicated hardware with MQTT connectivity, and multiple backup systems including Wireguard VPN.",
-      "date": "",
-      "media": [
-        {
-          "type": "link",
-          "title": "Home Assistant",
-          "description": "Open source home automation platform powering the smart home infrastructure.",
-          "url": "https://www.home-assistant.io",
-          "image": "",
-          "domain": "home-assistant.io"
-        },
-        {
-          "type": "link",
-          "title": "Frigate NVR",
-          "description": "AI-powered network video recorder for real-time object detection on security cameras.",
-          "url": "https://frigate.video",
-          "image": "",
-          "domain": "frigate.video"
-        }
-      ]
-    },
-    {
-      "name": "E-commerce API Suite",
-      "description": "Designed an API for BNPL providers to manage risk in e-commerce B2B applications, requiring integration with legacy systems across multiple operating regions.",
-      "date": "Aug 2021",
-      "media": [
-        {
-          "type": "link",
-          "title": "Allianz Trade Developer Portal",
-          "description": "Developer documentation and API reference for e-commerce credit insurance integration.",
-          "url": "https://developer.allianz-trade.com",
-          "image": "",
-          "domain": "developer.allianz-trade.com"
-        }
-      ]
-    },
-    {
-      "name": "Single-Invoice.co v3 Documentation",
-      "description": "Redesigned documentation emphasizing improved endpoint naming and comprehensive integration guidance.",
-      "date": "Jan 2021 - Aug 2021",
-      "media": []
-    },
-    {
-      "name": "Credable API",
-      "description": "Built comprehensive API documentation and integration framework.",
-      "date": "Jan 2018 - Jan 2020",
-      "media": [
-        {
-          "type": "link",
-          "title": "Credable API Docs",
-          "description": "Interactive API documentation for credit insurance services built on Readme platform.",
-          "url": "https://credable.readme.io",
-          "image": "",
-          "domain": "credable.readme.io"
-        }
-      ]
-    },
-    {
-      "name": "Olive U Naturally",
-      "description": "Developed custom Shopify site with product photography, Mailchimp email marketing integration, and Shopify Pay implementation.",
-      "date": "Apr 2016 - Jun 2017",
-      "media": []
-    }
   ]
 }

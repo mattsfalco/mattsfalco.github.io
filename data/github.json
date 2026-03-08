@@ -3,9 +3,37 @@
   "name": "Matthew Falco",
   "bio": "",
   "url": "https://github.com/mattsfalco",
-  "avatar_url": "",
-  "public_repos": 0,
-  "followers": 0,
-  "repos": [],
-  "_fetched_at": "1970-01-01T00:00:00Z"
+  "avatar_url": "https://avatars.githubusercontent.com/u/5975457?v=4",
+  "public_repos": 5,
+  "followers": 2,
+  "repos": [
+    {
+      "name": "mattsfalco.github.io",
+      "description": "Generated from Linkedin and Gravatar",
+      "url": "https://github.com/mattsfalco/mattsfalco.github.io",
+      "language": "JavaScript",
+      "stars": 1,
+      "forks": 0,
+      "updated_at": "2026-03-07T18:32:25Z",
+      "topics": []
+    },
+    {
+      "name": "srv-atervinning",
+      "description": "SRV Container Schedule",
+      "url": "https://github.com/mattsfalco/srv-atervinning",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "updated_at": "2023-03-22T20:23:53Z",
+      "topics": [
+        "atervinning",
+        "emptying",
+        "sludge",
+        "srv",
+        "stockholm",
+        "trash"
+      ]
+    }
+  ],
+  "_fetched_at": "2026-03-08T01:47:20.968Z"
 }
