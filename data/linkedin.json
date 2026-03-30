@@ -1,6 +1,6 @@
 {
   "_source": "https://www.linkedin.com/in/matthewstephenfalco",
-  "_updated_at": "2026-03-29T02:01:13.815Z",
+  "_updated_at": "2026-03-30T02:03:18.965Z",
   "_note": "Auto-fetched via LinkedIn DMA Data Portability API. Manual edits to fields not covered by the API will be preserved.",
   "headline": "Technical Product Manager with 12+ years in Fintech, Insurtech",
   "summary": "Specialising in Digital Transformation and Innovation for companies looking to reinvent their product line or business focus.  I am a passionate entrepreneur with experience in building B2B products, internal tools, API's and brand creation. Consulting for fintech and e-commerce startups, I am able to utilise my technical and operational expertise to quickly deliver on projects requiring a wide range of skillsets. When a company decides to embark on an innovation strategy I serve as needed from ideation to scale, acting as Product Owner or Operations Lead while recruiting new members as the strategy unfolds.  Usually reporting directly to a board of management or steering committee, I deliver easy to digest executive summaries to aid in the review process, from organising and gathering client requirements to explaining market trends and retrospectives on what has been successful during development, what has failed, and what opportunities lay ahead.  I have extensive experience in API design, development, documentation and testing for both large corporate and startup use cases. For startups the focus is on speed of software development, incorporating off the shelf solutions and versioning to move quick and test product variations often with a few large customers to start. Large corporations require standardisation through API Governance and refined global naming structures that allow for API's to be clearly segmented based on the customer handling the integration. In all cases clear to understand documentation is crucial to both commercialise and integrate the API efficiently. I prefer to be included/responsible for all aspects of the API to deliver the best result for the end-user, our customers development team.  I spend my free time enhancing my technical skills through small tech projects such as home automation and learning courses from AWS or Google which allows me to better communicate and relate to developers and their needs.",
@@ -10,8 +10,8 @@
       "title": "Product Owner",
       "description": "- Creation of a new innovation platform to run experiments to solve common problems faced by mid-sized exporters. - - Prototyping real product ideas using Figma Make and Lovable for user testing and efficient knowledge transfer of business logic to development teams - - Evaluation and testing of partner API's in Postman for writing detailed work tickets in JIRA saving discovery time for developers - Migration of 3 documentation platforms to a single Confluence installation for the product and tech departments. - Improved the integration of trade financing documents in the workflow app Manager via a new Payment Advice field matching experience for uploaded documents. - Automated release notes using Jira automation scripting for internal and external audiences.",
       "location": "Stockholm",
-      "start_date": "Feb 2025",
-      "end_date": "Feb 2026",
+      "start_date": "Mar 2025",
+      "end_date": "Mar 2026",
       "current": false
     },
     {
@@ -312,7 +312,7 @@
     {
       "name": "Hosted Window Enhancements and Documentation",
       "description": "My first project working for the payment company was improvement of the Hosted Window checkout. Working side by side with a single developer we rapidly tested different input field behaviours to provide the easiest data entry experience for the user. Following this release I was also tasked with improving the documentation for the feature.",
-      "date": "Nov 2014 - Feb 2015",
+      "date": "Nov 2014 - Mar 2015",
       "url": ""
     },
     {
