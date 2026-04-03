@@ -1,6 +1,6 @@
 {
   "_source": "https://www.linkedin.com/in/matthewstephenfalco",
-  "_updated_at": "2026-04-02T01:55:19.739Z",
+  "_updated_at": "2026-04-03T01:56:47.952Z",
   "_note": "Auto-fetched via LinkedIn DMA Data Portability API. Manual edits to fields not covered by the API will be preserved.",
   "headline": "Technical Product Manager with 12+ years in Fintech, Insurtech",
   "summary": "Specialising in Digital Transformation and Innovation for companies looking to reinvent their product line or business focus.  I am a passionate entrepreneur with experience in building B2B products, internal tools, API's and brand creation. Consulting for fintech and e-commerce startups, I am able to utilise my technical and operational expertise to quickly deliver on projects requiring a wide range of skillsets. When a company decides to embark on an innovation strategy I serve as needed from ideation to scale, acting as Product Owner or Operations Lead while recruiting new members as the strategy unfolds.  Usually reporting directly to a board of management or steering committee, I deliver easy to digest executive summaries to aid in the review process, from organising and gathering client requirements to explaining market trends and retrospectives on what has been successful during development, what has failed, and what opportunities lay ahead.  I have extensive experience in API design, development, documentation and testing for both large corporate and startup use cases. For startups the focus is on speed of software development, incorporating off the shelf solutions and versioning to move quick and test product variations often with a few large customers to start. Large corporations require standardisation through API Governance and refined global naming structures that allow for API's to be clearly segmented based on the customer handling the integration. In all cases clear to understand documentation is crucial to both commercialise and integrate the API efficiently. I prefer to be included/responsible for all aspects of the API to deliver the best result for the end-user, our customers development team.  I spend my free time enhancing my technical skills through small tech projects such as home automation and learning courses from AWS or Google which allows me to better communicate and relate to developers and their needs.",
@@ -10,8 +10,8 @@
       "title": "Product Owner",
       "description": "- Creation of a new innovation platform to run experiments to solve common problems faced by mid-sized exporters. - - Prototyping real product ideas using Figma Make and Lovable for user testing and efficient knowledge transfer of business logic to development teams - - Evaluation and testing of partner API's in Postman for writing detailed work tickets in JIRA saving discovery time for developers - Migration of 3 documentation platforms to a single Confluence installation for the product and tech departments. - Improved the integration of trade financing documents in the workflow app Manager via a new Payment Advice field matching experience for uploaded documents. - Automated release notes using Jira automation scripting for internal and external audiences.",
       "location": "Stockholm",
-      "start_date": "Mar 2025",
-      "end_date": "Mar 2026",
+      "start_date": "Feb 2025",
+      "end_date": "Feb 2026",
       "current": false
     },
     {
@@ -19,7 +19,7 @@
       "title": "API Specialist",
       "description": "Development, testing and deployment of the Bright Energy Developer Hub for white-label utility clients, allowing their end customers to login and access their white-label mobile apps.  - Created a product road map after an efficient discovery process by reviewing existing code base, documentation and client developer experience. - Created an continuous development workflow for Bright Energy developers/product owners maintaining the developer hub and all underlying documentation sources. - Created custom, OAS 3.1 definitions for both Bright-Kit and Bright-API focused on proper naming schema's, inheritance, polymorphism and stored in a team accessible Github repo for platform independent collaboration. All elements of the Open API definition were re-worked to prepare for international sales. - Quickly deployed an improved customer developer experience using Readme.com SaaS which sourced content from a linked git repository for tiered permission control of content. - Created a public Postman Team Profile and Workspace with collections sourced from the same linked git repository. This enabled self-service testing of utility clients API's removing the dependency of completing the white-label deployment to test.",
       "location": "Stockholm, Stockholm County, Sweden",
-      "start_date": "Jul 2024",
+      "start_date": "Jun 2024",
       "end_date": "Dec 2024",
       "current": false
     },
@@ -29,7 +29,7 @@
       "description": "Development, testing and deployment of the E-commerce API suite for BNPL clients.  - Built an entirely new set of API's to enable e-commerce clients to be insured for Buy Now Pay Later payment schemes. - Relaunched an improved version of our API Documentation portal with in-depth developer guides to simplify the integration process. - Created an accompanying Postman Collection and Mock Server to enable developers to do integration testing of their test and production accounts. - Helped employees to learn about the project through a comprehensive internal project documentation in Confluence - Coordinated multiple scrum teams from different departments using Jira to deliver new product features dependent on upstream services  Development, testing and deployment of Single-Invoice.co API version 3 for invoice insurance customers.  - Simplified the integration flowchart for developers by redesigning the API to be a linear flow with unique end states. - Reduced time-to-live by creating a streamlined on-boarding experience for developers with in-depth guides from Getting Started to Production launch.",
       "location": "Stockholm, Stockholm County, Sweden",
       "start_date": "Jan 2022",
-      "end_date": "Jul 2024",
+      "end_date": "Jun 2024",
       "current": false
     },
     {
@@ -37,7 +37,7 @@
       "title": "Product Owner",
       "description": "Tradelock Invoice Insurance web app for SME's in the UK.  - Brought to market a new method for SME's to buy credit insurance for their company via connecting their accounting system and selecting invoices or buyers to insure. - Continuously added new accounting systems to allow new SME's access to purchase insurance. - Built new features and A/B tested different pricing options based on User Interviews of existing customers. This improved our on-boarding success rate and conversion rate inside the web app. - Solidified our position in the market by attending the largest insurance and accounting conventions in the UK. - Increased distribution of our product through new partnerships which could never been utilised in the past by the company without our product. - Proved that a machine learning model can decrease risk significantly with only a small lost in sales. Created a tuned supervised machine learning model with a data scientist that connected directly to our database and trained on anonymised accounting data, historical purchasing data and insurance events. - Improved status reporting and transparency towards our steering committee by creating automated reporting dashboards using Google Data Studio. We never needed to create a sales/marketing report and members could review the live dashboard anytime. - Successfully prepared for and passed a penetration test with no major security or product issues discovered.",
       "location": "Stockholm, Stockholm County, Sweden",
-      "start_date": "Mar 2020",
+      "start_date": "Feb 2020",
       "end_date": "Dec 2021",
       "current": false
     },
@@ -91,7 +91,7 @@
       "title": "Project Manager",
       "description": "Project requirements, design, and production of payment products. Managing integrations with new partners, payment types and supplementary gateway services.  •\tPayment product design using HTML & CSS and production prototyping. Incorporating visual responses (color change, notifications, focusing) per event to guide customers through the payment flow. Managing the implementation of smart layers built underneath the interface to encourage users to provide valid input.  •\tAgile Project Management to incorporate customer feature requests with production goals, plan epics, summarize technical documentation for development and adjust the company roadmap while maintaining a specific timeline not to inhibit marketing and PR efforts. •\tIntegration and partner liaison to negotiate working contracts to establish development ready environment for the testing and implementation of payment orientated services.",
       "location": "",
-      "start_date": "Dec 2014",
+      "start_date": "Nov 2014",
       "end_date": "Mar 2015",
       "current": false
     },
@@ -101,7 +101,7 @@
       "description": "•\tClient acquisition and account management that produced major growth within a startup. Customer base grew from 10 to 200 clients under 8 months.  •\tVertical marketing analysis and reporting for startup of nine people.  Reports crucial to pivoting choices and product production pipeline. •\tAgile Project Management using Pivotal Tracker working directly with developers to prioritize customer requests and lobby for feature ranking in product backlog. •\tPromotion of product awareness within target markets by authoring blog articles on company website.",
       "location": "Mountain View, CA",
       "start_date": "Aug 2012",
-      "end_date": "Oct 2013",
+      "end_date": "Sep 2013",
       "current": false
     },
     {
@@ -118,7 +118,7 @@
       "title": "Camp Unit Head",
       "description": "Age Group Coordinator for Jewish activities and field trips. •\tLed pre-programed adventure trips for ages ranging 6-16.  •\tLed and taught kids through various sports and arts & craft activities.",
       "location": "Osher Marin JCC",
-      "start_date": "Jul 2009",
+      "start_date": "Jun 2009",
       "end_date": "Aug 2011",
       "current": false
     },
@@ -312,13 +312,13 @@
     {
       "name": "Hosted Window Enhancements and Documentation",
       "description": "My first project working for the payment company was improvement of the Hosted Window checkout. Working side by side with a single developer we rapidly tested different input field behaviours to provide the easiest data entry experience for the user. Following this release I was also tasked with improving the documentation for the feature.",
-      "date": "Dec 2014 - Mar 2015",
+      "date": "Nov 2014 - Feb 2015",
       "url": ""
     },
     {
       "name": "Olive U Naturally Shopify Website",
       "description": "Product photography (Sofia) and Custom Shopify website (Matt).  Email marketing with Mailchimp and custom templates with an integration into the Shopify product line.  Initially we chose a website template which was then modified using the Liquid Syntax feature developed by Shopify. This allowed additional product details to be displayed and button functionality to be controlled based on values such as stock count or product color. CSS customisation and individual pages were edited/created to suit the needs of the client based on industry standards.  Implementation of the newly launched Shopify Pay along with custom email templates for checkout receipts and order fulfilment.",
-      "date": "May 2016 - Jul 2017",
+      "date": "Apr 2016 - Jun 2017",
       "url": ""
     },
     {
