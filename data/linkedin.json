@@ -1,6 +1,6 @@
 {
   "_source": "https://www.linkedin.com/in/matthewstephenfalco",
-  "_updated_at": "2026-04-21T02:08:08.799Z",
+  "_updated_at": "2026-04-22T02:06:29.422Z",
   "_note": "Auto-fetched via LinkedIn DMA Data Portability API. Manual edits to fields not covered by the API will be preserved.",
   "headline": "Product vetern for B2B in insurance and fintech.",
   "summary": "Vetern product expert building API's and applications for B2B in insurance and fintech industries.API's:- Developer portals with tiered permissions, integrated auth management via IAM and Oauth, request logging and debugging. Readme.com, Swagger, or custom CMS.- API Specification authoring using the newest OAS 3.1 spec with inheritance and polymorphism. Best for AI ingestion, human understanding and MCP server generation.- API Governance for large organizations. Creating internal standards, git workflows and developer pipelines which tie in to the governance process.- Postman collections with full test suites, pre-filled environments, mock servers, certified team profiles and full publication to the API network",
