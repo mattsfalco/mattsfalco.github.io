@@ -1,6 +1,6 @@
 {
   "_source": "https://www.linkedin.com/in/matthewstephenfalco",
-  "_updated_at": "2026-04-29T02:32:40.885Z",
+  "_updated_at": "2026-04-30T02:33:27.382Z",
   "_note": "Auto-fetched via LinkedIn DMA Data Portability API. Manual edits to fields not covered by the API will be preserved.",
   "headline": "Product vetern for B2B in insurance and fintech.",
   "summary": "Vetern product expert building API's and applications for B2B in insurance and fintech industries.API's:- Developer portals with tiered permissions, integrated auth management via IAM and Oauth, request logging and debugging. Readme.com, Swagger, or custom CMS.- API Specification authoring using the newest OAS 3.1 spec with inheritance and polymorphism. Best for AI ingestion, human understanding and MCP server generation.- API Governance for large organizations. Creating internal standards, git workflows and developer pipelines which tie in to the governance process.- Postman collections with full test suites, pre-filled environments, mock servers, certified team profiles and full publication to the API network",
@@ -19,8 +19,8 @@
       "title": "Product Owner",
       "description": "- Creation of a new innovation platform to run experiments to solve common problems faced by mid-sized exporters. - - Prototyping real product ideas using Figma Make and Lovable for user testing and efficient knowledge transfer of business logic to development teams - - Evaluation and testing of partner API's in Postman for writing detailed work tickets in JIRA saving discovery time for developers - Migration of 3 documentation platforms to a single Confluence installation for the product and tech departments. - Improved the integration of trade financing documents in the workflow app Manager via a new Payment Advice field matching experience for uploaded documents. - Automated release notes using Jira automation scripting for internal and external audiences.",
       "location": "Stockholm",
-      "start_date": "Feb 2025",
-      "end_date": "Feb 2026",
+      "start_date": "Mar 2025",
+      "end_date": "Mar 2026",
       "current": false
     },
     {
@@ -46,7 +46,7 @@
       "title": "Product Owner",
       "description": "Tradelock Invoice Insurance web app for SME's in the UK.  - Brought to market a new method for SME's to buy credit insurance for their company via connecting their accounting system and selecting invoices or buyers to insure. - Continuously added new accounting systems to allow new SME's access to purchase insurance. - Built new features and A/B tested different pricing options based on User Interviews of existing customers. This improved our on-boarding success rate and conversion rate inside the web app. - Solidified our position in the market by attending the largest insurance and accounting conventions in the UK. - Increased distribution of our product through new partnerships which could never been utilised in the past by the company without our product. - Proved that a machine learning model can decrease risk significantly with only a small lost in sales. Created a tuned supervised machine learning model with a data scientist that connected directly to our database and trained on anonymised accounting data, historical purchasing data and insurance events. - Improved status reporting and transparency towards our steering committee by creating automated reporting dashboards using Google Data Studio. We never needed to create a sales/marketing report and members could review the live dashboard anytime. - Successfully prepared for and passed a penetration test with no major security or product issues discovered.",
       "location": "Stockholm, Stockholm County, Sweden",
-      "start_date": "Feb 2020",
+      "start_date": "Mar 2020",
       "end_date": "Dec 2021",
       "current": false
     },
@@ -321,7 +321,7 @@
     {
       "name": "Hosted Window Enhancements and Documentation",
       "description": "My first project working for the payment company was improvement of the Hosted Window checkout. Working side by side with a single developer we rapidly tested different input field behaviours to provide the easiest data entry experience for the user. Following this release I was also tasked with improving the documentation for the feature.",
-      "date": "Nov 2014 - Feb 2015",
+      "date": "Nov 2014 - Mar 2015",
       "url": ""
     },
     {
