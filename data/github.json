@@ -4,7 +4,7 @@
   "bio": "",
   "url": "https://github.com/mattsfalco",
   "avatar_url": "https://avatars.githubusercontent.com/u/5975457?v=4",
-  "public_repos": 5,
+  "public_repos": 6,
   "followers": 3,
   "repos": [
     {
@@ -14,7 +14,7 @@
       "language": "JavaScript",
       "stars": 1,
       "forks": 0,
-      "updated_at": "2026-07-16T02:07:48Z",
+      "updated_at": "2026-07-17T02:10:53Z",
       "topics": []
     },
     {
@@ -33,7 +33,17 @@
         "stockholm",
         "trash"
       ]
+    },
+    {
+      "name": "Falco-Wedding",
+      "description": "Content for the day of our wedding.",
+      "url": "https://github.com/mattsfalco/Falco-Wedding",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "updated_at": "2026-07-17T22:40:45Z",
+      "topics": []
     }
   ],
-  "_fetched_at": "2026-07-17T02:10:49.338Z"
+  "_fetched_at": "2026-07-18T02:00:07.930Z"
 }
