@@ -1,6 +1,6 @@
 {
   "_source": "https://www.linkedin.com/in/matthewstephenfalco",
-  "_updated_at": "2026-08-26T00:59:42.978Z",
+  "_updated_at": "2026-08-27T06:53:40.827Z",
   "_note": "Auto-fetched via LinkedIn DMA Data Portability API. Manual edits to fields not covered by the API will be preserved.",
   "headline": "API Product Manager at If Insurance",
   "summary": "Vetern product expert building API's and applications for B2B in insurance and fintech industries.API's:- Developer portals with tiered permissions, integrated auth management via IAM and Oauth, request logging and debugging. Readme.com, Swagger, or custom CMS.- API Specification authoring using the newest OAS 3.1 spec with inheritance and polymorphism. Best for AI ingestion, human understanding and MCP server generation.- API Governance for large organizations. Creating internal standards, git workflows and developer pipelines which tie in to the governance process.- Postman collections with full test suites, pre-filled environments, mock servers, certified team profiles and full publication to the API network",
@@ -81,7 +81,7 @@
       "company": "Veroveli",
       "title": "Web Developer",
       "description": "- Development of Custom Static Websites, Shopify E-commerce sites, WordPress sites, AMP-only sites.   Platforms: Nop Commerce, Shopify, WordPress. Web Apps: Project 1 - Analytics Dashboard connected via Google Analytics API with graphs drawn using Google Charts API. Backend: PHP 7.0, CSS: Custom Bootstrap template hosted on a CDN. Using HTML 5, JavaScript. Hosted on Azure. Features: Basic Login, Zendesk integration, session control, interactive graphs, custom date ranges, monthly reports.",
-      "location": "",
+      "location": "Stockholm, Sweden",
       "start_date": "Dec 2015",
       "end_date": "Jan 2017",
       "current": false
@@ -90,7 +90,7 @@
       "company": "Just Value",
       "title": "SEO Specialist",
       "description": "Adwords and Analytics Certified in Mobile and Search.  Managing Adwords campaigns for several international clients after installing custom Google Tag Manager containers with custom tags based on each clients business goals. Providing quality keyword tracking and link reporting through the LinkBird API and LinkBird reporting tool. Setting up Sitemaps using the Semantic keyword method to best attract organic search and lower the cost of paid search to client websites.",
-      "location": "",
+      "location": "Stockholm, Sweden",
       "start_date": "Dec 2015",
       "end_date": "Jan 2017",
       "current": false
@@ -108,7 +108,7 @@
       "company": "Mondido",
       "title": "Project Manager",
       "description": "Project requirements, design, and production of payment products. Managing integrations with new partners, payment types and supplementary gateway services.  •\tPayment product design using HTML & CSS and production prototyping. Incorporating visual responses (color change, notifications, focusing) per event to guide customers through the payment flow. Managing the implementation of smart layers built underneath the interface to encourage users to provide valid input.  •\tAgile Project Management to incorporate customer feature requests with production goals, plan epics, summarize technical documentation for development and adjust the company roadmap while maintaining a specific timeline not to inhibit marketing and PR efforts. •\tIntegration and partner liaison to negotiate working contracts to establish development ready environment for the testing and implementation of payment orientated services.",
-      "location": "",
+      "location": "Stockholm, Sweden",
       "start_date": "Nov 2014",
       "end_date": "Mar 2015",
       "current": false
@@ -144,7 +144,7 @@
       "company": "Mike Barnard Construction Co.",
       "title": "Apprentice Carpenter",
       "description": "Construction of live/work housing complexes and residential high end renovation. Woodworking, foundation, metal-stud framing, Arc, TIG & MIG welding.",
-      "location": "",
+      "location": "San Francisco Bay Area",
       "start_date": "May 2006",
       "end_date": "Aug 2007",
       "current": false
