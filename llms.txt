@@ -1,0 +1,33 @@
+# Matthew Falco
+
+> Owner of Falco Consulting AB and veteran API Product Manager specializing in OpenAPI 3.1 consulting, Model Context Protocol (MCP) integration, and enterprise API governance.
+
+Matthew Falco provides technical advisory and implementation consulting for high-scale B2B platforms across insurance, fintech, and utility sectors. Core expertise centers on modern API architecture, developer experience platforms, and machine-readable capability interfaces for autonomous AI agents.
+
+## Advisory Services
+
+- [OpenAPI 3.1 Consulting](https://mattfalco.com/experience.html): Authoring modern OAS 3.1 specifications utilizing inheritance, polymorphism, and rich schema validation. Architected for AI ingestion, automated code generation, and human comprehension.
+- [Model Context Protocol Integration](https://mattfalco.com/experience.html): Designing and implementing Model Context Protocol (MCP) servers and tools. Bridging enterprise REST APIs with autonomous AI agent workflows and LLM capability discovery.
+- [API Governance Reviews](https://mattfalco.com/experience.html): Establishing enterprise-grade API governance standards, git-driven validation workflows, automated spectral/linting pipelines, and developer portal documentation standards.
+
+## Technical Specializations
+
+- **API Specification Engineering**: OpenAPI 3.1 (OAS 3.1), JSON Schema (draft 2020-12), inheritance, polymorphism (`oneOf`, `anyOf`, `allOf`), request/response schema modeling.
+- **Agentic AI & LLM Discovery**: Model Context Protocol (MCP) server creation, machine-readable endpoint declarations (`llms.txt`), AI-ingestible documentation, autonomous agent tool calling.
+- **API Governance & Quality**: Spectral linting rulesets, CI/CD pipeline automation, Git-based versioning, breaking change detection, and API lifecycle management.
+- **Developer Experience (DX) & Portals**: ReadMe.com SaaS portals, custom developer hubs, tiered access permissions, IAM/OAuth authentication integration, and interactive debugging environments.
+- **API Testing & Mocking**: Postman team workspaces, automated contract test suites, mock servers, pre-configured environments, and public API network publishing.
+
+## Key Links
+
+- [Home](https://mattfalco.com/): Official website and portfolio overview.
+- [About](https://mattfalco.com/about.html): Biography, background, and professional ethos.
+- [Experience](https://mattfalco.com/experience.html): Comprehensive career timeline including roles at Falco Consulting AB, If Insurance, Mitigram, Bright Energy AB, and Allianz Trade.
+- [Projects](https://mattfalco.com/projects.html): Key client engagements, developer hubs, and API platforms.
+- [Interests](https://mattfalco.com/interests.html): Professional and personal interests.
+- [GitHub](https://github.com/mattsfalco): Open-source repositories and code samples.
+- [LinkedIn](https://www.linkedin.com/in/matthewstephenfalco): Professional background and verified credentials.
+
+## Optional
+
+- [Full Context](https://mattfalco.com/llms.txt): Machine-readable index of advisory services and technical specializations.
