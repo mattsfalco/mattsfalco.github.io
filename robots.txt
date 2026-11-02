@@ -1,0 +1,10 @@
+# Permissive robots.txt permitting all search crawlers and autonomous AI agents
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://mattfalco.com/sitemap.xml
+
+# LLM Discovery
+# llms.txt: https://mattfalco.com/llms.txt
+llms.txt: https://mattfalco.com/llms.txt

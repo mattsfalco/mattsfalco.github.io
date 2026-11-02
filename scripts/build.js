@@ -168,6 +168,15 @@ function copyAssets() {
     fs.copyFileSync(cname, path.join(DIST, 'CNAME'));
   }
 
+  // Copy root discovery and configuration files
+  const rootFiles = ['robots.txt', 'llms.txt', '.nojekyll'];
+  for (const file of rootFiles) {
+    const srcPath = path.join(ROOT, file);
+    if (fs.existsSync(srcPath)) {
+      fs.copyFileSync(srcPath, path.join(DIST, file));
+    }
+  }
+
   console.log('  Copied static assets');
 }
 
